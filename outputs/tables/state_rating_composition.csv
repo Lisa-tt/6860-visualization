@@ -1,0 +1,41 @@
+state,rating,services,share_of_rated_pct
+ACT,Significant Improvement Required,2,0.562
+ACT,Working Towards NQS,49,13.764
+ACT,Meeting NQS,148,41.573
+ACT,Exceeding NQS,157,44.101
+ACT,Excellent,0,0.000
+NSW,Significant Improvement Required,7,0.124
+NSW,Working Towards NQS,401,7.111
+NSW,Meeting NQS,4099,72.690
+NSW,Exceeding NQS,1122,19.897
+NSW,Excellent,10,0.177
+NT,Significant Improvement Required,2,0.930
+NT,Working Towards NQS,45,20.930
+NT,Meeting NQS,153,71.163
+NT,Exceeding NQS,15,6.977
+NT,Excellent,0,0.000
+QLD,Significant Improvement Required,0,0.000
+QLD,Working Towards NQS,338,10.935
+QLD,Meeting NQS,2219,71.789
+QLD,Exceeding NQS,526,17.017
+QLD,Excellent,8,0.259
+SA,Significant Improvement Required,0,0.000
+SA,Working Towards NQS,205,16.776
+SA,Meeting NQS,629,51.473
+SA,Exceeding NQS,388,31.751
+SA,Excellent,0,0.000
+TAS,Significant Improvement Required,0,0.000
+TAS,Working Towards NQS,39,17.727
+TAS,Meeting NQS,135,61.364
+TAS,Exceeding NQS,46,20.909
+TAS,Excellent,0,0.000
+VIC,Significant Improvement Required,2,0.047
+VIC,Working Towards NQS,184,4.314
+VIC,Meeting NQS,2917,68.394
+VIC,Exceeding NQS,1153,27.034
+VIC,Excellent,9,0.211
+WA,Significant Improvement Required,0,0.000
+WA,Working Towards NQS,211,15.997
+WA,Meeting NQS,1051,79.682
+WA,Exceeding NQS,57,4.321
+WA,Excellent,0,0.000

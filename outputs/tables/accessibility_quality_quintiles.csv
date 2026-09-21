@@ -1,0 +1,81 @@
+scope,transport_mode,distance_quintile,services,rated_services,median_distance_km,meeting_or_above_services,meeting_or_above_pct,ci95_lower_pct,ci95_upper_pct
+All services,Bus,1,3533,3314,2.225,3050,92.034,91.062,92.908
+All services,Bus,2,3532,3284,5.725,2987,90.956,89.927,91.890
+All services,Bus,3,3533,3271,10.196,3000,91.715,90.721,92.612
+All services,Bus,4,3532,3232,18.454,2981,92.234,91.260,93.107
+All services,Bus,5,3533,3235,76.223,2832,87.543,86.360,88.636
+Centre-Based Care,Bus,1,3458,3250,2.224,3001,92.338,91.373,93.204
+Centre-Based Care,Bus,2,3440,3212,5.725,2931,91.252,90.224,92.180
+Centre-Based Care,Bus,3,3440,3193,10.198,2942,92.139,91.154,93.023
+Centre-Based Care,Bus,4,3454,3167,18.463,2928,92.453,91.481,93.323
+Centre-Based Care,Bus,5,3454,3159,75.947,2772,87.749,86.560,88.847
+Family Day Care,Bus,1,75,64,2.355,49,76.562,64.867,85.250
+Family Day Care,Bus,2,92,72,5.796,56,77.778,66.909,85.833
+Family Day Care,Bus,3,93,78,10.099,58,74.359,63.686,82.745
+Family Day Care,Bus,4,78,65,18.201,53,81.538,70.446,89.111
+Family Day Care,Bus,5,79,76,89.474,60,78.947,68.504,86.605
+Major Cities of Australia,Bus,1,2806,2639,2.316,2453,92.952,91.912,93.867
+Major Cities of Australia,Bus,2,3134,2923,5.763,2667,91.242,90.162,92.213
+Major Cities of Australia,Bus,3,3280,3050,10.172,2801,91.836,90.811,92.756
+Major Cities of Australia,Bus,4,2874,2657,17.908,2457,92.473,91.407,93.416
+Major Cities of Australia,Bus,5,693,646,39.361,604,93.498,91.328,95.154
+Inner Regional Australia,Bus,1,547,507,1.883,455,89.744,86.797,92.093
+Inner Regional Australia,Bus,2,306,277,5.346,250,90.253,86.190,93.214
+Inner Regional Australia,Bus,3,184,156,10.716,141,90.385,84.742,94.086
+Inner Regional Australia,Bus,4,517,446,23.585,409,91.704,88.774,93.922
+Inner Regional Australia,Bus,5,1604,1465,62.469,1311,89.488,87.813,90.957
+Outer Regional Australia,Bus,1,173,161,1.950,136,84.472,78.082,89.256
+Outer Regional Australia,Bus,2,83,76,5.800,62,81.579,71.422,88.698
+Outer Regional Australia,Bus,3,63,59,10.026,54,91.525,81.648,96.326
+Outer Regional Australia,Bus,4,141,129,16.975,115,89.147,82.606,93.424
+Outer Regional Australia,Bus,5,874,798,131.928,674,84.461,81.783,86.809
+Remote Australia,Bus,1,1,1,0.386,1,100.000,20.654,100.000
+Remote Australia,Bus,2,9,8,5.788,8,100.000,67.558,100.000
+Remote Australia,Bus,3,6,6,8.777,4,66.667,29.999,90.323
+Remote Australia,Bus,4,0,0,,0,,,
+Remote Australia,Bus,5,203,188,230.983,146,77.660,71.185,83.026
+Very Remote Australia,Bus,1,6,6,0.417,5,83.333,43.649,96.995
+Very Remote Australia,Bus,2,0,0,,0,,,
+Very Remote Australia,Bus,3,0,0,,0,,,
+Very Remote Australia,Bus,4,0,0,,0,,,
+Very Remote Australia,Bus,5,148,128,443.984,88,68.750,60.273,76.135
+All services,Train,1,3533,3315,0.537,3060,92.308,91.351,93.167
+All services,Train,2,3532,3275,1.327,2979,90.962,89.931,91.896
+All services,Train,3,3533,3279,2.532,3007,91.705,90.711,92.601
+All services,Train,4,3532,3232,5.062,2937,90.873,89.830,91.818
+All services,Train,5,3533,3235,20.558,2867,88.624,87.484,89.673
+Centre-Based Care,Train,1,3421,3217,0.540,2982,92.695,91.744,93.544
+Centre-Based Care,Train,2,3455,3204,1.326,2932,91.511,90.495,92.427
+Centre-Based Care,Train,3,3444,3210,2.533,2952,91.963,90.971,92.854
+Centre-Based Care,Train,4,3467,3183,5.062,2896,90.983,89.938,91.930
+Centre-Based Care,Train,5,3459,3167,20.510,2812,88.791,87.645,89.843
+Family Day Care,Train,1,112,98,0.418,78,79.592,70.569,86.382
+Family Day Care,Train,2,77,71,1.369,47,66.197,54.616,76.115
+Family Day Care,Train,3,89,69,2.482,55,79.710,68.776,87.511
+Family Day Care,Train,4,65,49,4.863,41,83.673,70.963,91.487
+Family Day Care,Train,5,74,68,23.026,55,80.882,69.989,88.473
+Major Cities of Australia,Train,1,2993,2826,0.533,2621,92.746,91.730,93.645
+Major Cities of Australia,Train,2,3051,2839,1.332,2597,91.476,90.392,92.448
+Major Cities of Australia,Train,3,2992,2783,2.533,2569,92.310,91.261,93.243
+Major Cities of Australia,Train,4,2860,2621,4.970,2425,92.522,91.451,93.468
+Major Cities of Australia,Train,5,891,846,10.652,770,91.017,88.900,92.763
+Inner Regional Australia,Train,1,405,364,0.558,339,93.132,90.058,95.305
+Inner Regional Australia,Train,2,356,321,1.286,283,88.162,84.169,91.253
+Inner Regional Australia,Train,3,413,376,2.564,336,89.362,85.837,92.090
+Inner Regional Australia,Train,4,473,425,5.358,361,84.941,81.229,88.028
+Inner Regional Australia,Train,5,1511,1365,24.236,1247,91.355,89.746,92.733
+Outer Regional Australia,Train,1,105,98,0.549,79,80.612,71.693,87.222
+Outer Regional Australia,Train,2,108,101,1.361,86,85.149,76.933,90.788
+Outer Regional Australia,Train,3,99,93,2.521,83,89.247,81.327,94.054
+Outer Regional Australia,Train,4,181,169,5.996,140,82.840,76.442,87.778
+Outer Regional Australia,Train,5,841,762,36.769,653,85.696,83.030,88.003
+Remote Australia,Train,1,17,15,0.444,12,80.000,54.814,92.953
+Remote Australia,Train,2,12,10,1.349,9,90.000,59.584,98.212
+Remote Australia,Train,3,26,24,2.259,19,79.167,59.529,90.755
+Remote Australia,Train,4,17,16,6.150,10,62.500,38.641,81.519
+Remote Australia,Train,5,147,138,137.573,109,78.986,71.450,84.951
+Very Remote Australia,Train,1,13,12,0.606,9,75.000,46.769,91.106
+Very Remote Australia,Train,2,5,4,1.083,4,100.000,51.010,100.000
+Very Remote Australia,Train,3,3,3,2.566,0,0.000,0.000,56.151
+Very Remote Australia,Train,4,1,1,5.935,1,100.000,20.654,100.000
+Very Remote Australia,Train,5,132,114,291.635,79,69.298,60.317,77.021

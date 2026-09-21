@@ -1,0 +1,6 @@
+measure,scope,scope_n,valid_n,missing_n,missing_pct,mean,std_dev,minimum,q1,median,q3,p90,maximum
+Bus distance (km),All services,17663,17663,0,0.000,32.090,72.778,0.025,4.779,10.196,23.200,76.218,926.875
+Train distance (km),All services,17663,17663,0,0.000,11.431,44.638,0.015,1.097,2.532,6.325,20.557,922.403
+Nearest listed transport (km),All services,17663,17663,0,0.000,9.526,34.353,0.015,1.047,2.320,5.401,16.018,620.381
+Approved places,Centre-Based Care,17246,17244,2,0.012,68.777,40.184,2.000,40.000,60.000,90.000,120.000,477.000
+Annual operating hours/week,All services,17663,10716,6947,39.331,54.035,13.618,0.417,52.500,55.000,60.000,60.000,167.883

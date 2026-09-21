@@ -1,0 +1,11 @@
+remoteness_area,service_type,services,capacity_services,median_approved_places,q1_approved_places,q3_approved_places,annual_hours_services,median_annual_weekly_hours,q1_annual_weekly_hours,q3_annual_weekly_hours
+Major Cities of Australia,Centre-Based Care,12476,12474,66.000,43.000,95.000,7834,55.000,52.500,60.000
+Major Cities of Australia,Family Day Care,311,2,33.000,24.500,41.500,282,42.500,40.000,70.000
+Inner Regional Australia,Centre-Based Care,3092,3092,50.000,30.000,75.000,1595,55.000,50.000,60.000
+Inner Regional Australia,Family Day Care,66,0,,,,54,40.000,38.125,88.750
+Outer Regional Australia,Centre-Based Care,1299,1299,48.000,28.000,75.000,720,55.000,47.500,60.000
+Outer Regional Australia,Family Day Care,35,0,,,,29,40.000,34.000,45.000
+Remote Australia,Centre-Based Care,215,215,32.000,24.000,56.500,123,48.333,36.750,52.500
+Remote Australia,Family Day Care,4,0,,,,3,28.000,26.500,34.000
+Very Remote Australia,Centre-Based Care,153,153,26.000,20.000,40.000,68,45.000,33.625,50.000
+Very Remote Australia,Family Day Care,1,0,,,,0,,,

@@ -1,0 +1,71 @@
+variable,value,count,status
+ServiceType,Centre-Based Care,17246,Recognised
+ServiceType,Family Day Care,417,Recognised
+OverallRating,Meeting NQS,11358,Recognised
+OverallRating,Exceeding NQS,3465,Recognised
+OverallRating,Working Towards NQS,1473,Recognised
+OverallRating,<Missing>,1327,Missing
+OverallRating,Excellent,27,Recognised
+OverallRating,Significant Improvement Required,13,Recognised
+State,NSW,5950,Recognised
+State,VIC,4829,Recognised
+State,QLD,3288,Recognised
+State,WA,1453,Recognised
+State,SA,1280,Recognised
+State,ACT,378,Recognised
+State,TAS,240,Recognised
+State,NT,235,Recognised
+State,<Missing>,10,Missing
+Long Day Care,Yes,9303,Recognised
+Long Day Care,No,8360,Recognised
+Preschool/Kindergarten - Part of a School,No,16816,Recognised
+Preschool/Kindergarten - Part of a School,Yes,847,Recognised
+Preschool/Kindergarten - Stand alone,No,14627,Recognised
+Preschool/Kindergarten - Stand alone,Yes,3036,Recognised
+Outside school Hours Care - After School,No,11706,Recognised
+Outside school Hours Care - After School,Yes,5957,Recognised
+Outside school Hours Care - Before School,No,12292,Recognised
+Outside school Hours Care - Before School,Yes,5371,Recognised
+Outside school Hours Care - Vacation Care,No,12729,Recognised
+Outside school Hours Care - Vacation Care,Yes,4934,Recognised
+Other,No,17335,Recognised
+Other,Yes,328,Recognised
+QualityArea1Rating,Meeting NQS,11832,Recognised
+QualityArea1Rating,Exceeding NQS,3494,Recognised
+QualityArea1Rating,<Missing>,1327,Missing
+QualityArea1Rating,Working Towards NQS,1009,Recognised
+QualityArea1Rating,Significant Improvement Required,1,Recognised
+QualityArea2Rating,Meeting NQS,13092,Recognised
+QualityArea2Rating,Exceeding NQS,2358,Recognised
+QualityArea2Rating,<Missing>,1327,Missing
+QualityArea2Rating,Working Towards NQS,875,Recognised
+QualityArea2Rating,Significant Improvement Required,11,Recognised
+QualityArea3Rating,Meeting NQS,13179,Recognised
+QualityArea3Rating,Exceeding NQS,2729,Recognised
+QualityArea3Rating,<Missing>,1327,Missing
+QualityArea3Rating,Working Towards NQS,425,Recognised
+QualityArea3Rating,Significant Improvement Required,2,Recognised
+QualityArea3Rating,Provisional – Not Yet Assessed,1,Unrecognised
+QualityArea4Rating,Meeting NQS,12902,Recognised
+QualityArea4Rating,Exceeding NQS,3051,Recognised
+QualityArea4Rating,<Missing>,1327,Missing
+QualityArea4Rating,Working Towards NQS,380,Recognised
+QualityArea4Rating,Significant Improvement Required,2,Recognised
+QualityArea4Rating,Provisional – Not Yet Assessed,1,Unrecognised
+QualityArea5Rating,Meeting NQS,12353,Recognised
+QualityArea5Rating,Exceeding NQS,3646,Recognised
+QualityArea5Rating,<Missing>,1327,Missing
+QualityArea5Rating,Working Towards NQS,334,Recognised
+QualityArea5Rating,Significant Improvement Required,2,Recognised
+QualityArea5Rating,Provisional – Not Yet Assessed,1,Unrecognised
+QualityArea6Rating,Meeting NQS,11918,Recognised
+QualityArea6Rating,Exceeding NQS,4164,Recognised
+QualityArea6Rating,<Missing>,1327,Missing
+QualityArea6Rating,Working Towards NQS,253,Recognised
+QualityArea6Rating,Provisional – Not Yet Assessed,1,Unrecognised
+QualityArea7Rating,Meeting NQS,12475,Recognised
+QualityArea7Rating,Exceeding NQS,2869,Recognised
+QualityArea7Rating,<Missing>,1327,Missing
+QualityArea7Rating,Working Towards NQS,981,Recognised
+QualityArea7Rating,Significant Improvement Required,10,Recognised
+QualityArea7Rating,Provisional – Not Yet Assessed,1,Unrecognised

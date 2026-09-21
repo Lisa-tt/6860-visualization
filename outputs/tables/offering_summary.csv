@@ -1,0 +1,8 @@
+offering,source_column,services,share_all_services_pct,share_centre_based_pct,rated_services,rating_coverage_pct,below_nqs_services,below_nqs_pct_of_rated,below_ci95_lower_pct,below_ci95_upper_pct,capacity_services,median_approved_places,q1_approved_places,q3_approved_places,annual_hours_services,median_annual_weekly_hours,q1_annual_weekly_hours,q3_annual_weekly_hours,median_bus_distance_km,median_train_distance_km,median_nearest_transport_km
+Long Day Care,Long Day Care,9303,52.669,53.943,8642,92.895,833,9.639,9.035,10.279,9303,72.000,46.000,96.000,9114,55.000,53.750,60.000,9.724,2.338,2.122
+Preschool: School-based,Preschool/Kindergarten - Part of a School,847,4.795,4.911,788,93.034,63,7.995,6.299,10.099,846,43.000,25.000,66.000,351,35.000,30.000,52.500,12.235,4.068,3.410
+Preschool: Stand-alone,Preschool/Kindergarten - Stand alone,3036,17.188,17.604,2955,97.332,107,3.621,3.005,4.357,3035,40.000,29.000,60.000,1274,50.000,37.500,57.500,11.669,2.891,2.584
+OSHC: After School,Outside school Hours Care - After School,5957,33.726,34.541,5438,91.288,662,12.174,11.331,13.069,5957,62.000,45.000,96.000,1495,57.500,52.500,60.000,10.412,2.702,2.460
+OSHC: Before School,Outside school Hours Care - Before School,5371,30.408,31.143,4953,92.217,572,11.549,10.688,12.469,5371,70.000,45.000,100.000,1391,57.500,55.000,60.000,10.254,2.637,2.419
+OSHC: Vacation Care,Outside school Hours Care - Vacation Care,4934,27.934,28.610,4547,92.156,580,12.756,11.817,13.757,4934,74.000,48.000,100.000,1456,57.500,52.500,60.000,10.100,2.671,2.426
+Other,Other,328,1.857,1.902,311,94.817,32,10.289,7.383,14.165,297,56.000,35.000,89.000,187,55.000,50.000,60.000,12.009,3.266,3.069

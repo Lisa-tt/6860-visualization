@@ -1,0 +1,115 @@
+ServiceApprovalNumber,ServiceName,State,remoteness_area,longitude,latitude,DistanceToBusStation_km,DistanceToTrainStation_km,transport_distance_invalid,transport_distance_review,decision
+SE-00014417,One Tree Gurlu Gurlu Maya Children's Service,WA,Remote Australia,117.142,-20.766,926.875,175.272,False,True,Retain as reviewed geographic extreme
+SE-40006806,MONTESSORI EARLY YEARS LEARNING AND CARE CENTRE DAMPIER,WA,Remote Australia,116.707,-20.663,926.861,210.031,False,True,Retain as reviewed geographic extreme
+SE-00016664,Dampier Child care,WA,Remote Australia,116.706,-20.664,926.705,210.024,False,True,Retain as reviewed geographic extreme
+SE-40015474,One Tree Wickham Children's Service,WA,Remote Australia,117.141,-20.678,926.486,183.929,False,True,Retain as reviewed geographic extreme
+SE-40004792,Pilbara Preparatory - Bulgarra,WA,Remote Australia,116.860,-20.729,923.459,194.616,False,True,Retain as reviewed geographic extreme
+SE-40021187,PILBARA PREP OSHC CLUB,WA,Remote Australia,116.859,-20.729,923.338,194.598,False,True,Retain as reviewed geographic extreme
+SE-40012500,MONTESSORI EARLY YEARS LEARNING AND CARE CENTRE KARRATHA,WA,Remote Australia,116.843,-20.731,922.785,195.431,False,True,Retain as reviewed geographic extreme
+SE-40011487,Child Campus Karratha,WA,Remote Australia,116.850,-20.734,922.638,194.790,False,True,Retain as reviewed geographic extreme
+SE-00012447,One Tree Bulgarra Children's Service,WA,Remote Australia,116.850,-20.735,922.453,194.643,False,True,Retain as reviewed geographic extreme
+SE-00013273,YMCA Tambrey Early Learning Centre,WA,Remote Australia,116.805,-20.729,922.019,197.937,False,True,Retain as reviewed geographic extreme
+SE-40009918,Child Campus Karratha,WA,Remote Australia,116.832,-20.738,921.720,195.491,False,True,Retain as reviewed geographic extreme
+SE-40027477,Child Campus Karratha Early Years Learning Centre,WA,Remote Australia,116.831,-20.739,921.592,195.449,False,True,Retain as reviewed geographic extreme
+SE-00012915,One Tree Millars Well Children's Service,WA,Remote Australia,116.817,-20.741,921.041,196.202,False,True,Retain as reviewed geographic extreme
+SE-40022152,Millars Well Outside School Hours Care,WA,Remote Australia,116.818,-20.743,920.883,195.940,False,True,Retain as reviewed geographic extreme
+SE-00014306,Karratha Early Learning,WA,Remote Australia,116.801,-20.753,919.413,196.187,False,True,Retain as reviewed geographic extreme
+SE-40027086,Child Campus - Baynton West Primary,WA,Remote Australia,116.799,-20.753,919.361,196.280,False,True,Retain as reviewed geographic extreme
+SE-40029448,One Tree Pannawonica OSHC,WA,Very Remote Australia,116.324,-21.637,812.520,179.093,False,True,Retain as reviewed geographic extreme
+SE-00012519,One Tree Onslow Children's Service,WA,Very Remote Australia,115.113,-21.645,794.773,300.268,False,True,Retain as reviewed geographic extreme
+SE-00012978,Newman Day Care Centre,WA,Very Remote Australia,119.733,-23.355,790.665,91.177,False,True,Retain as reviewed geographic extreme
+SE-00013264,YMCA Newman Early Learning Centre,WA,Very Remote Australia,119.732,-23.357,790.371,91.152,False,True,Retain as reviewed geographic extreme
+SE-40019019,One Tree South Hedland Children's Service,WA,Remote Australia,118.594,-20.405,772.610,203.396,False,True,Retain as reviewed geographic extreme
+SE-00013180,Treloar Child Care Centre Incorporated,WA,Remote Australia,118.604,-20.409,771.790,203.317,False,True,Retain as reviewed geographic extreme
+SE-40021821,Child Campus Hedland,WA,Remote Australia,118.613,-20.403,770.660,204.257,False,True,Retain as reviewed geographic extreme
+SE-40023083,Child Campus Port Hedland,WA,Remote Australia,118.602,-20.310,768.711,213.774,False,True,Retain as reviewed geographic extreme
+SE-00013267,YMCA Port Hedland Early Learning Centre,WA,Remote Australia,118.632,-20.302,765.507,215.551,False,True,Retain as reviewed geographic extreme
+SE-00012837,One Tree Len Taplin Children's Service,WA,Remote Australia,118.633,-20.302,765.382,215.584,False,True,Retain as reviewed geographic extreme
+SE-00012405,One Tree Bernice McLeod Children's Service,WA,Very Remote Australia,114.125,-21.930,763.033,397.587,False,True,Retain as reviewed geographic extreme
+SE-40025469,Nintirri Early Learning Centre,WA,Very Remote Australia,117.798,-22.698,747.412,64.908,False,True,Retain as reviewed geographic extreme
+SE-40001062,Mulga Mates Centre Inc,QLD,Very Remote Australia,144.267,-26.619,725.177,198.370,False,True,Retain as reviewed geographic extreme
+SE-40007325,One Tree Paraburdoo Childrens Service,WA,Very Remote Australia,117.670,-23.199,691.414,122.078,False,True,Retain as reviewed geographic extreme
+SE-00001436,Napranum Early Childhood Centre - Kindergarten,QLD,Very Remote Australia,141.887,-12.682,681.320,562.393,False,True,Retain as reviewed geographic extreme
+SE-40000427,Napranum Early Childhood Centre,QLD,Very Remote Australia,141.887,-12.682,681.320,562.393,False,True,Retain as reviewed geographic extreme
+SE-40027222,Aurukun State School Kindergarten,QLD,Very Remote Australia,141.730,-13.354,679.841,485.902,False,True,Retain as reviewed geographic extreme
+SE-00000705,Cape Kids Child Care Centre,QLD,Very Remote Australia,141.875,-12.630,679.383,567.978,False,True,Retain as reviewed geographic extreme
+SE-40013107,Weipa Kindergarten & Preschool,QLD,Very Remote Australia,141.877,-12.624,678.832,568.687,False,True,Retain as reviewed geographic extreme
+SE-00001503,Weipa Community Kindergarten and Preschool,QLD,Very Remote Australia,141.879,-12.623,678.690,568.744,False,True,Retain as reviewed geographic extreme
+SE-00016641,St Joseph's - Weipa Outside School Hours Care,QLD,Very Remote Australia,141.884,-12.629,678.555,568.152,False,True,Retain as reviewed geographic extreme
+SE-00002604,Yirrkala Preschool,NT,Very Remote Australia,136.894,-12.251,654.127,562.131,False,True,Retain as reviewed geographic extreme
+SE-00002543,Nhulunbuy Preschool,NT,Very Remote Australia,136.783,-12.182,642.400,555.054,False,True,Retain as reviewed geographic extreme
+SE-00002542,Nhulunbuy Child Care Centre,NT,Very Remote Australia,136.782,-12.186,642.243,554.715,False,True,Retain as reviewed geographic extreme
+SE-00002432,Arnhem Early Learning Centre,NT,Very Remote Australia,136.781,-12.187,642.092,554.542,False,True,Retain as reviewed geographic extreme
+SE-00012839,Leonora Early Learning Centre,WA,Very Remote Australia,121.334,-28.878,623.463,206.720,False,True,Retain as reviewed geographic extreme
+SE-00017341,Angurugu Preschool,NT,Very Remote Australia,136.420,-13.852,622.637,455.616,False,True,Retain as reviewed geographic extreme
+SE-00002424,Alyangula Area Preschool,NT,Very Remote Australia,136.420,-13.851,622.598,455.630,False,True,Retain as reviewed geographic extreme
+SE-40005812,Seagrass Early Learning,NT,Very Remote Australia,136.420,-13.851,622.598,455.630,False,True,Retain as reviewed geographic extreme
+SE-40011918,Seagrass OSHC,NT,Very Remote Australia,136.420,-13.851,622.598,455.630,False,True,Retain as reviewed geographic extreme
+SE-40006262,Western Cape College - Mapoon Kindergarten,QLD,Very Remote Australia,141.913,-12.036,620.381,633.946,False,True,Retain as reviewed geographic extreme
+SE-00000751,Gidgee Kids ELC,QLD,Very Remote Australia,145.682,-28.072,620.226,193.566,False,True,Retain as reviewed geographic extreme
+SE-00012836,Leinster Community Day Care,WA,Very Remote Australia,120.697,-27.913,603.564,276.936,False,True,Retain as reviewed geographic extreme
+SE-00012522,Cubbys Learnaversity,WA,Remote Australia,121.901,-33.842,591.762,143.469,False,True,Retain as reviewed geographic extreme
+SE-00012843,Lingalonga Early Years Learning Centre Inc,WA,Remote Australia,121.889,-33.858,591.240,144.963,False,True,Retain as reviewed geographic extreme
+SE-00012554,Esperance Outside School Hours Care,WA,Remote Australia,121.876,-33.862,590.290,145.216,False,True,Retain as reviewed geographic extreme
+SE-40021279,Lord Howe Island Community Preschool Inc,NSW,Very Remote Australia,159.058,-31.520,584.435,581.253,False,True,Retain as reviewed geographic extreme
+SE-40007581,Pormpur Paanthu Long Day Care,QLD,Very Remote Australia,141.621,-14.900,570.501,314.217,False,True,Retain as reviewed geographic extreme
+SE-40000628,Pormpuraaw State School Kindergarten,QLD,Very Remote Australia,141.621,-14.899,570.487,314.300,False,True,Retain as reviewed geographic extreme
+SE-00002548,Numbulwar Preschool,NT,Very Remote Australia,135.741,-14.277,567.343,376.943,False,True,Retain as reviewed geographic extreme
+SE-40001089,Lockhart State School Kindergarten,QLD,Very Remote Australia,143.345,-12.785,559.608,512.347,False,True,Retain as reviewed geographic extreme
+SE-00000665,Charleville Early Learning Centre,QLD,Very Remote Australia,146.243,-26.412,546.855,0.662,False,True,Retain as reviewed geographic extreme
+SE-40020261,St Mary's Outside School Hours Care Charleville,QLD,Very Remote Australia,146.244,-26.404,546.273,0.268,False,True,Retain as reviewed geographic extreme
+SE-00001318,C&K Charleville Community Kindergarten,QLD,Very Remote Australia,146.247,-26.404,546.058,0.333,False,True,Retain as reviewed geographic extreme
+SE-00012762,One Tree Kambalda Children's Service,WA,Outer Regional Australia,121.621,-31.208,545.382,40.240,False,True,Retain as reviewed geographic extreme
+SE-00012549,YMCA Kalgoorlie OSHC,WA,Outer Regional Australia,121.487,-30.759,544.878,3.615,False,True,Retain as reviewed geographic extreme
+SE-40021735,YMCA Kalgoorlie Early Learning Centre,WA,Outer Regional Australia,121.477,-30.745,544.351,3.040,False,True,Retain as reviewed geographic extreme
+SE-00012597,Goldfields  Child Care Centre - Kalgoorlie,WA,Outer Regional Australia,121.482,-30.760,544.305,3.991,False,True,Retain as reviewed geographic extreme
+SE-40028532,Goldfields Out Of School Hours Care,WA,Outer Regional Australia,121.479,-30.754,544.300,3.554,False,True,Retain as reviewed geographic extreme
+SE-00014225,Wanslea Regional Family Day Care,WA,Outer Regional Australia,121.476,-30.746,544.219,3.191,False,True,Retain as reviewed geographic extreme
+SE-00012789,Kids on Carrington Childcare,WA,Outer Regional Australia,121.478,-30.758,544.022,4.013,False,True,Retain as reviewed geographic extreme
+SE-00013162,Kalgoorlie Occasional Child Care Centre,WA,Outer Regional Australia,121.463,-30.754,542.819,4.047,False,True,Retain as reviewed geographic extreme
+SE-00012677,Busy Bees on Hannan Street,WA,Outer Regional Australia,121.463,-30.756,542.708,3.873,False,True,Retain as reviewed geographic extreme
+SE-00012760,Busy Bees at Kalgoorlie,WA,Outer Regional Australia,121.466,-30.775,542.373,3.539,False,True,Retain as reviewed geographic extreme
+SE-00012646,Goodstart Early Learning Somerville,WA,Outer Regional Australia,121.445,-30.771,540.643,1.661,False,True,Retain as reviewed geographic extreme
+SE-00000288,Longreach  Child Care Centre,QLD,Very Remote Australia,144.256,-23.446,536.122,0.683,False,True,Retain as reviewed geographic extreme
+SE-00001540,C&K Longreach Community Kindergarten,QLD,Very Remote Australia,144.258,-23.441,535.574,0.606,False,True,Retain as reviewed geographic extreme
+SE-00002463,Gapuwiyak Preschool,NT,Very Remote Australia,135.805,-12.503,535.548,444.897,False,True,Retain as reviewed geographic extreme
+SE-40001349,Coen Kindergarten,QLD,Very Remote Australia,143.200,-13.945,531.310,413.287,False,True,Retain as reviewed geographic extreme
+SE-40000942,St Joseph's Catholic Kindergarten Blackall,QLD,Very Remote Australia,145.460,-24.419,526.294,98.088,False,True,Retain as reviewed geographic extreme
+SE-40006386,Blackall Early Years Service,QLD,Very Remote Australia,145.470,-24.425,525.482,98.830,False,True,Retain as reviewed geographic extreme
+SE-40000622,Kowanyama State School Kindergarten,QLD,Very Remote Australia,141.744,-15.472,523.405,255.282,False,True,Retain as reviewed geographic extreme
+SE-00017087,Kowanyama State School Kindergarten,QLD,Very Remote Australia,141.744,-15.476,523.190,254.852,False,True,Retain as reviewed geographic extreme
+SE-40000635,Northern Peninsula Area College - Injinoo Kindergarten,QLD,Very Remote Australia,142.287,-10.965,521.359,745.443,False,True,Retain as reviewed geographic extreme
+SE-40000624,Northern Peninsula Area College - Bamaga Kindergarten,QLD,Very Remote Australia,142.401,-10.892,519.113,746.696,False,True,Retain as reviewed geographic extreme
+SE-00002571,Shepherdson Preschool,NT,Very Remote Australia,135.567,-12.028,511.318,453.260,False,True,Retain as reviewed geographic extreme
+SE-40000803,BDCS - Preschool (9a),NSW,Very Remote Australia,145.935,-30.096,506.247,332.192,False,True,Retain as reviewed geographic extreme
+SE-40005055,BDCS - Childcare (9b),NSW,Very Remote Australia,145.932,-30.101,505.986,331.639,False,True,Retain as reviewed geographic extreme
+SE-40006335,Barcaldine Early Years Service,QLD,Very Remote Australia,145.295,-23.561,503.931,1.083,False,True,Retain as reviewed geographic extreme
+SE-40029096,Barcaldine State School Kindergarten,QLD,Very Remote Australia,145.295,-23.561,503.931,1.083,False,True,Retain as reviewed geographic extreme
+SE-40000633,Tagai State College - Horn Island (Narupay Ngurpay Mudh) Kindergarten,QLD,Very Remote Australia,142.249,-10.595,482.077,783.740,False,True,Retain as reviewed geographic extreme
+SE-00000382,Lady Gowrie Thursday Island Child Centre,QLD,Very Remote Australia,142.212,-10.588,479.667,786.316,False,True,Retain as reviewed geographic extreme
+SE-40000646,Tagai State College - Thursday Island (Paru Kaziw Mudh) Kindergarten,QLD,Very Remote Australia,142.223,-10.582,479.547,786.364,False,True,Retain as reviewed geographic extreme
+SE-40008280,Lady Gowrie Thursday Island Kindergarten and OSHC,QLD,Very Remote Australia,142.216,-10.583,479.366,786.587,False,True,Retain as reviewed geographic extreme
+SE-40000645,Tagai State College - Thursday Island (Waybeni Buway Ngurpay Mudh) Kindergarten,QLD,Very Remote Australia,142.222,-10.579,479.269,786.638,False,True,Retain as reviewed geographic extreme
+SE-40000636,Tagai State College - Moa Island (Kubin Ngurpay Lag) Kindergarten,QLD,Very Remote Australia,142.333,-10.186,445.520,820.397,False,True,Retain as reviewed geographic extreme
+SE-40000743,Iama Migi Kaziw Mudh,QLD,Very Remote Australia,142.333,-10.186,445.520,820.397,False,True,Retain as reviewed geographic extreme
+SE-40000642,Tagai State College - Moa Island (St Paul's Ngurpay Lag) Kindergarten,QLD,Very Remote Australia,142.330,-10.186,445.369,820.534,False,True,Retain as reviewed geographic extreme
+SE-40000637,Tagai State College - Murray Island (Mer Eruer Uteb) Kindergarten,QLD,Very Remote Australia,142.770,-9.899,444.064,830.504,False,True,Retain as reviewed geographic extreme
+SE-40000649,Tagai State College - Sue Island (Warraber Ngurpay Lag) Kindergarten,QLD,Very Remote Australia,142.770,-9.899,444.064,830.504,False,True,Retain as reviewed geographic extreme
+SE-40001091,Tagai State College - Yam Island (Iama Ngurpay Lag) Kindergarten,QLD,Very Remote Australia,142.770,-9.899,444.064,830.504,False,True,Retain as reviewed geographic extreme
+SE-40000653,Tagai State College - Yorke Island (Masig Muisau Moegi Kaziw Ngurpay Lag) Kindergarten,QLD,,142.173,-10.183,437.200,828.319,False,True,Retain as reviewed geographic extreme
+SE-40000631,Tagai State College - Badu Island (Badhulgaw Ngurpay Lag) Kindergarten,QLD,Very Remote Australia,142.163,-10.157,434.077,831.443,False,True,Retain as reviewed geographic extreme
+SE-40001092,Tagai State College - Mabuiag Island (Mabuygiw Ngurpay Lag) Kindergarten,QLD,Very Remote Australia,142.188,-9.955,415.358,850.437,False,True,Retain as reviewed geographic extreme
+SE-40000639,Tagai State College - Saibai Island (Kadhego Ngurpay Lag) Kindergarten,QLD,Very Remote Australia,142.623,-9.378,388.196,890.406,False,True,Retain as reviewed geographic extreme
+SE-40001901,Tagai State College - Darnley Island (Erub Erwer Uteb) Kindergarten,QLD,Very Remote Australia,143.770,-9.587,376.054,830.065,False,True,Retain as reviewed geographic extreme
+SE-00012801,Kimberley Kids Early Learning Centre,WA,Remote Australia,122.216,-17.960,355.203,642.772,False,True,Retain as reviewed geographic extreme
+SE-40015439,Kimberley Kids Cable Beach,WA,Remote Australia,122.218,-17.964,354.968,642.590,False,True,Retain as reviewed geographic extreme
+SE-00014418,Kimberley Kids Outside School Hours Care,WA,Remote Australia,122.220,-17.958,354.816,643.203,False,True,Retain as reviewed geographic extreme
+SE-00012953,Mulberry Tree Child Care Roebuck,WA,Remote Australia,122.233,-17.939,353.598,645.782,False,True,Retain as reviewed geographic extreme
+SE-40015033,Mulberry Tree OSHC - Roebuck,WA,Remote Australia,122.233,-17.939,353.563,645.730,False,True,Retain as reviewed geographic extreme
+SE-00012939,Indigo Montessori Child Care and Kindy - Broome,WA,Remote Australia,122.234,-17.965,353.285,643.703,False,True,Retain as reviewed geographic extreme
+SE-00012433,Broome Out Of School Care Children's Activities Inc,WA,Remote Australia,122.234,-17.964,353.233,643.817,False,True,Retain as reviewed geographic extreme
+SE-00012432,YMCA Broome Early Learning Centre,WA,Remote Australia,122.237,-17.959,353.002,644.420,False,True,Retain as reviewed geographic extreme
+SE-40002210,Tagai State College - Boigu Island (Malu Kiyay Ngurpay Lag) Kindergarten,QLD,Very Remote Australia,142.219,-9.231,348.363,922.403,False,True,Retain as reviewed geographic extreme
+SE-00012520,One Tree Derby Children's Services,WA,Very Remote Australia,123.640,-17.317,225.920,791.299,False,True,Retain as reviewed geographic extreme
+SE-00012858,Little Nuggets Early Learning Centre,WA,Very Remote Australia,127.685,-18.236,224.305,640.008,False,True,Retain as reviewed geographic extreme
+SE-00012394,Baya Gawiy Early Childhood Learning Unit,WA,Very Remote Australia,125.564,-18.190,0.153,823.206,False,True,Retain as reviewed geographic extreme

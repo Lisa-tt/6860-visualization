@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ACECQA policy briefing on overlapping service quality, accessibility, coverage and operational gaps.">
+  <title>ACECQA Service Equity Screening</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230b1f33'/%3E%3Cpath d='M13 45 27 17h10l14 28H40l-2.5-6H25.8l-2.6 6Zm16-15h5.4L31.8 23Z' fill='%23f7f9fa'/%3E%3Ccircle cx='49' cy='15' r='6' fill='%23f0a15e'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="deck" id="deck" aria-live="polite">
+    <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+
+    <section class="slide title-slide is-active" data-section="Brief" data-main="true">
+      <div class="title-grid">
+        <div class="title-copy">
+          <p class="eyebrow">ACECQA policy briefing &bull; individual analysis</p>
+          <h1>Where service gaps overlap</h1>
+          <p class="title-subtitle">A national screen of quality, accessibility, population-adjusted coverage and operational capacity.</p>
+          <div class="role-line">Perspective: a data scientist supporting ACECQA and government decision makers</div>
+        </div>
+        <div class="title-signal" aria-label="Four-dimensional screening framework">
+          <div class="signal-ring ring-quality"><span>Quality</span></div>
+          <div class="signal-ring ring-access"><span>Access</span></div>
+          <div class="signal-ring ring-capacity"><span>Capacity</span></div>
+          <div class="signal-core"><strong>12</strong><span>groups<br>flagged</span></div>
+        </div>
+      </div>
+      <div class="metric-strip title-metrics">
+        <div><strong>17,663</strong><span>approved services</span></div>
+        <div><strong>99.9%</strong><span>matched to ABS remoteness</span></div>
+        <div><strong>4</strong><span>transparent screening rules</span></div>
+        <div><strong>0-13</strong><span>population denominator</span></div>
+      </div>
+      <aside class="speaker-note">
+        I am [name], presenting as a data scientist supporting ACECQA. The business question is not simply where quality is lower or services are farther from transport. It is where quality, access, population-adjusted coverage and operational capacity gaps overlap, and therefore where ACECQA should investigate next.
+      </aside>
+    </section>
+
+    <section class="slide" data-section="Decision frame" data-main="true">
+      <header class="slide-heading">
+        <p class="eyebrow">Key business question</p>
+        <h2>The decision problem is overlap, not a single ranking</h2>
+      </header>
+      <blockquote class="kbq">Where do gaps in service quality, accessibility and operational capacity overlap across Australia, and which geographic groups warrant closer investigation?</blockquote>
+      <div class="dimension-grid">
+        <article class="dimension quality"><span class="dimension-index">01</span><h3>Quality</h3><p>Below-NQS share and seven quality areas</p></article>
+        <article class="dimension access"><span class="dimension-index">02</span><h3>Accessibility</h3><p>Bus and train proximity, kept separate</p></article>
+        <article class="dimension coverage"><span class="dimension-index">03</span><h3>Coverage</h3><p>Approved places per 1,000 children</p></article>
+        <article class="dimension operations"><span class="dimension-index">04</span><h3>Operations</h3><p>Centre-Based capacity and annual hours</p></article>
+      </div>
+      <div class="logic-line" aria-label="Analysis logic">
+        <span>Observe</span><i></i><span>Compare</span><i></i><span>Adjust</span><i></i><span>Screen</span><i></i><span>Validate locally</span>
+      </div>
+      <p class="bottom-takeaway">Outcome: a defensible investigation screen, not a causal model or automatic funding allocation.</p>
+      <aside class="speaker-note">
+        I organise the analysis around four compatible dimensions. Geography is the main hierarchy, while service type is treated as a confounder because the mix of Long Day Care, preschool and OSHC changes across remoteness. The result is a screening tool: it tells decision makers where to validate conditions, not where to allocate resources automatically.
+      </aside>
+    </section>
+
+    <section class="slide" data-section="Data" data-main="true">
+      <header class="slide-heading">
+        <p class="eyebrow">Data sources</p>
+        <h2>Three sources turn a register into a geographic planning dataset</h2>
+      </header>
+      <div class="source-stack">
+        <article class="source-row">
+          <div class="source-number">01</div>
+          <div><h3>ACECQA approved services register</h3><p>Service type, ratings, approval details, capacity and operating calendars.</p></div>
+          <div class="source-stat"><strong>17,663</strong><span>service records</span></div>
+        </article>
+        <article class="source-row">
+          <div class="source-number">02</div>
+          <div><h3>Instructor-enriched location fields</h3><p>Coordinates, nearest bus and train station, and distance to each station.</p></div>
+          <div class="source-stat"><strong>114</strong><span>&gt;500 km records reviewed</span></div>
+        </article>
+        <article class="source-row">
+          <div class="source-number">03</div>
+          <div><h3>ABS ASGS 2021 and Census DataPack</h3><p>Official Remoteness Area polygons and exact ages 0-13 usual-resident counts.</p></div>
+          <div class="source-stat"><strong>4.32m</strong><span>children in scope</span></div>
+        </article>
+      </div>
+      <div class="scope-band">
+        <div><span>Unit of analysis</span><strong>Approved service</strong></div>
+        <div><span>Geographic join</span><strong>State-specific RA code</strong></div>
+        <div><span>Register design</span><strong>Cross-sectional snapshot</strong></div>
+      </div>
+      <p class="source-citation">Sources: <a href="https://www.acecqa.gov.au/resources/national-registers" target="_blank" rel="noreferrer">ACECQA National Registers</a>; <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files" target="_blank" rel="noreferrer">ABS ASGS Edition 3</a>; <a href="https://www.abs.gov.au/census/find-census-data/datapacks" target="_blank" rel="noreferrer">ABS 2021 Census DataPacks</a>.</p>
+      <aside class="speaker-note">
+        The primary source is the supplied ACECQA service register. I supplement it with the teacher-added location fields, official ABS 2021 Remoteness Area boundaries and Census population counts for exact ages zero to thirteen. The service remains the unit of analysis. Because the register is a current snapshot and the denominator is from 2021, coverage ratios are planning proxies rather than current vacancy estimates.
+      </aside>
+    </section>
+
+    <section class="slide" data-section="Preparation" data-main="true">
+      <header class="slide-heading">
+        <p class="eyebrow">Data preparation</p>
+        <h2>Preparation preserves the meaning of ratings, calendars and geography</h2>
+      </header>
+      <div class="pipeline">
+        <article><span>01</span><h3>Audit</h3><p>Duplicates, missingness, categories and numeric coercion</p></article>
+        <article><span>02</span><h3>Derive</h3><p>Meeting+, Below NQS, capacity, annual weekly hours</p></article>
+        <article><span>03</span><h3>Validate</h3><p>Coordinates and implausible transport distances</p></article>
+        <article><span>04</span><h3>Spatial join</h3><p>GeoPandas point-in-polygon against ABS RA</p></article>
+        <article><span>05</span><h3>Standardise</h3><p>Approved places per 1,000 children aged 0-13</p></article>
+        <article><span>06</span><h3>Model</h3><p>Robust adjusted associations, then transparent screening</p></article>
+      </div>
+      <div class="preparation-grid">
+        <div class="decision-list">
+          <h3>Analytical safeguards</h3>
+          <p><strong>No invented quality score.</strong> Ratings remain ordered categories.</p>
+          <p><strong>No global row deletion.</strong> Each analysis uses its own valid denominator.</p>
+          <p><strong>No calendar summation.</strong> Annual, school-term and holiday schedules remain separate.</p>
+          <p><strong>No capacity comparison for Family Day Care.</strong> Approved places are not comparable.</p>
+        </div>
+        <div class="audit-panel">
+          <div><strong>0</strong><span>duplicate service IDs</span></div>
+          <div><strong>841</strong><span>overlapping sessions merged</span></div>
+          <div><strong>17,652</strong><span>services matched to RA</span></div>
+        </div>
+      </div>
+      <aside class="speaker-note">
+        The cleaning strategy is analysis-specific rather than complete-case deletion. Ratings remain ordinal categories, transport extremes are reviewed instead of mechanically dropped, and overlapping daily sessions are merged using interval unions. GeoPandas assigns each valid point to an official ABS Remoteness Area. Population is joined using the state-specific RA code, avoiding accidental joins between identically named remoteness categories in different states.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="EDA" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">EDA 1 &bull; readiness</p>
+        <h2>Missingness changes the denominator more than the map</h2>
+      </header>
+      <div class="visual-with-rail rail-narrow">
+        <button class="image-button" data-image="assets/images/E01_data_readiness.png" title="Enlarge data-readiness figure">
+          <img src="assets/images/E01_data_readiness.png" alt="Data readiness chart showing variable missingness and analysis-specific sample sizes">
+        </button>
+        <aside class="insight-rail">
+          <div class="rail-stat"><strong>92.5%</strong><span>recognised overall rating</span></div>
+          <div class="rail-stat warning"><strong>39.3%</strong><span>annual hours missing</span></div>
+          <div class="rail-stat"><strong>60.6%</strong><span>annual-hours model sample</span></div>
+          <p>Every percentage and model reports its own valid <em>n</em>.</p>
+        </aside>
+      </div>
+      <p class="figure-note">Rows are retained for analyses where their required variables are valid; missing hours do not remove a service from geographic or quality analysis.</p>
+      <aside class="speaker-note">
+        EDA shows that geographic coverage is almost complete, while ratings are available for 92.5 percent of services. Hours are different: annual hours are missing for 39.3 percent, leaving 10,708 complete model records. I therefore report a different denominator for every analysis rather than deleting nearly forty percent of the register globally.
+      </aside>
+    </section>
+
+    <section class="slide" data-section="EDA" data-main="true">
+      <header class="slide-heading">
+        <p class="eyebrow">EDA 2 &bull; distributions</p>
+        <h2>Right-skew and service structure determine the visual and model choices</h2>
+      </header>
+      <div class="stats-table-wrap">
+        <table class="stats-table">
+          <thead><tr><th>Measure</th><th>Scope</th><th>Valid n</th><th>Missing</th><th>Mean</th><th>Median</th><th>P90</th></tr></thead>
+          <tbody>
+            <tr><td>Bus distance</td><td>All services</td><td>17,663</td><td>0.0%</td><td>32.1 km</td><td>10.2 km</td><td>76.2 km</td></tr>
+            <tr><td>Train distance</td><td>All services</td><td>17,663</td><td>0.0%</td><td>11.4 km</td><td>2.5 km</td><td>20.6 km</td></tr>
+            <tr><td>Nearest listed transport</td><td>All services</td><td>17,663</td><td>0.0%</td><td>9.5 km</td><td>2.3 km</td><td>16.0 km</td></tr>
+            <tr><td>Approved places</td><td>Centre-Based</td><td>17,244</td><td>0.0%</td><td>68.8</td><td>60.0</td><td>120.0</td></tr>
+            <tr><td>Annual hours / week</td><td>All services</td><td>10,716</td><td>39.3%</td><td>54.0 h</td><td>55.0 h</td><td>60.0 h</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="eda-decisions">
+        <article><span>Distribution</span><strong>Use medians, P90 and log distance</strong><p>Means are pulled upward by the long transport tail.</p></article>
+        <article><span>Comparability</span><strong>Restrict capacity to Centre-Based Care</strong><p>Family Day Care lacks a comparable approved-place measure.</p></article>
+        <article><span>Confounding</span><strong>Control state, remoteness and broad type</strong><p>Sample composition changes substantially across geography.</p></article>
+      </div>
+      <aside class="speaker-note">
+        The descriptive statistics explain several design choices. Transport distances are strongly right-skewed, so the presentation uses medians, the 90th percentile and logarithmic scales. Capacity is restricted to Centre-Based Care. EDA also showed different state-remoteness structures and operating-hour distributions by service type, motivating geographic and service-type controls in the adjusted models.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="National landscape" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">1 &bull; national landscape</p>
+        <h2>Approved services cluster along coastal urban corridors</h2>
+      </header>
+      <div class="visual-with-rail">
+        <button class="image-button" data-image="assets/images/01_spatial_landscape.png" title="Enlarge national service map">
+          <img src="assets/images/01_spatial_landscape.png" alt="Map of Australia showing service density and median transport distance in equal-area grid cells">
+        </button>
+        <aside class="insight-rail">
+          <span class="rail-label">Read this as</span>
+          <h3>Observed provision</h3>
+          <p>Bubble area is service count in a 75 km equal-area cell.</p>
+          <p>Colour is median distance to the nearest listed transport mode.</p>
+          <p class="caution">Counts alone do not show unmet need.</p>
+          <button class="explore-button" data-explorer="landscape">Open live explorer</button>
+        </aside>
+      </div>
+      <aside class="speaker-note">
+        The national map establishes the spatial landscape. Services cluster around coastal population centres. Inland cells generally contain fewer observed services and longer transport distances. This is not yet a coverage claim because the map has no population denominator. The live explorer allows state, remoteness, service type and metric filtering if I need to drill into a specific area during the presentation.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="Service structure" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">2 &bull; service mix</p>
+        <h2>Service composition changes with remoteness</h2>
+      </header>
+      <div class="visual-with-rail rail-wide">
+        <button class="image-button" data-image="assets/images/02_service_mix_confounder.png" title="Enlarge service-mix heatmap">
+          <img src="assets/images/02_service_mix_confounder.png" alt="Heatmap of detailed service offering prevalence gaps by remoteness">
+        </button>
+        <aside class="insight-rail">
+          <span class="rail-label">Largest shift</span>
+          <div class="big-callout">+40.7<span>pp</span></div>
+          <p>School-based preschool prevalence in Very Remote Australia versus its national prevalence.</p>
+          <p class="caution">Offerings overlap; cells are not market shares.</p>
+        </aside>
+      </div>
+      <p class="bottom-takeaway">Implication: raw geographic quality and hours comparisons can partly reflect a different service mix.</p>
+      <aside class="speaker-note">
+        Before comparing outcomes, I check composition. School-based preschool is 40.7 percentage points more prevalent in Very Remote Australia than nationally, while Long Day Care and OSHC offerings are less prevalent. Because offerings overlap, these are prevalence gaps rather than shares. The main implication is that geography and service mix must be considered together.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="Quality" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">3 &bull; quality</p>
+        <h2>Quality differences are geographic, but raw comparisons are compositional</h2>
+      </header>
+      <div class="visual-with-rail">
+        <button class="image-button" data-image="assets/images/03_quality_geography.png" title="Enlarge quality geography figure">
+          <img src="assets/images/03_quality_geography.png" alt="Rating composition by state and remoteness with quality-area benchmark gaps">
+        </button>
+        <aside class="insight-rail">
+          <div class="rail-stat danger"><strong>21.9%</strong><span>NT Below NQS among rated services</span></div>
+          <div class="rail-stat danger"><strong>30.6%</strong><span>Very Remote Below NQS</span></div>
+          <div class="rail-stat"><strong>QA1</strong><span>highest national Below-NQS area: 6.2%</span></div>
+          <button class="explore-button" data-explorer="quality">Explore quality</button>
+        </aside>
+      </div>
+      <p class="figure-note">Percentages use recognised ratings only. Heatmap cells report gaps from the national Meeting+ benchmark and include rated n.</p>
+      <aside class="speaker-note">
+        Among rated services, the Northern Territory has the highest state-level Below-NQS share at 21.9 percent. Across remoteness, the unadjusted Below-NQS share rises from 7.8 percent in Major Cities to 30.6 percent in Very Remote areas. Quality Area 1 is the weakest nationally. These remain descriptive comparisons and may reflect both sample size and service composition.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="Accessibility" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">4 &bull; accessibility</p>
+        <h2>Transport distance rises rapidly with remoteness</h2>
+      </header>
+      <div class="visual-with-rail rail-narrow">
+        <button class="image-button" data-image="assets/images/04_accessibility_geography.png" title="Enlarge transport accessibility figure">
+          <img src="assets/images/04_accessibility_geography.png" alt="Median and 90th percentile bus and train distance profiles by remoteness">
+        </button>
+        <aside class="insight-rail">
+          <span class="rail-label">Nearest listed mode</span>
+          <div class="distance-pair"><div><strong>1.89</strong><span>km<br>Major Cities</span></div><b>&rarr;</b><div><strong>230.03</strong><span>km<br>Very Remote</span></div></div>
+          <p>Bus and train remain separate because no rail is not the same as no transport.</p>
+          <p class="caution">Distance is not travel time, frequency or affordability.</p>
+        </aside>
+      </div>
+      <aside class="speaker-note">
+        Accessibility has the clearest geographic gradient. Median distance to the nearest listed bus or train service rises from 1.89 kilometres in Major Cities to 230 kilometres in Very Remote Australia. The 90th percentile also grows sharply, revealing a long-access tail. This is a proximity proxy only; it does not measure route frequency, cost or actual family travel.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="Coverage" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">5 &bull; population-adjusted coverage</p>
+        <h2>Population adjustment reveals lower approved-place intensity outside major cities</h2>
+      </header>
+      <div class="visual-with-rail rail-wide">
+        <button class="image-button" data-image="assets/images/04b_population_adjusted_coverage.png" title="Enlarge population-adjusted coverage figure">
+          <img src="assets/images/04b_population_adjusted_coverage.png" alt="Map and heatmap of Centre-Based approved places per 1,000 children aged 0 to 13">
+        </button>
+        <aside class="insight-rail">
+          <span class="rail-label">Approved places / 1,000 children</span>
+          <div class="distance-pair stacked"><div><strong>293.9</strong><span>Major Cities</span></div><b>&darr;</b><div><strong>141.2</strong><span>Very Remote</span></div></div>
+          <p>National benchmark: <strong>274.6</strong></p>
+          <p class="caution">Places are not vacancies, enrolments or demand.</p>
+          <button class="explore-button" data-explorer="coverage">Explore coverage</button>
+        </aside>
+      </div>
+      <aside class="speaker-note">
+        Raw service counts become more policy-relevant after adding a population denominator. Centre-Based approved places fall from 293.9 per thousand children in Major Cities to 141.2 in Very Remote Australia. State-remoteness cells reveal substantial within-state variation. However, these are current approved places divided by 2021 population, so the measure is a planning proxy rather than a vacancy or unmet-demand rate.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="Quality x accessibility" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">6 &bull; adjusted association</p>
+        <h2>Adjustment substantially weakens the raw quality-accessibility gradient</h2>
+      </header>
+      <div class="visual-with-rail rail-narrow">
+        <button class="image-button" data-image="assets/images/05_adjusted_quality_accessibility.png" title="Enlarge adjusted quality-accessibility figure">
+          <img src="assets/images/05_adjusted_quality_accessibility.png" alt="Adjusted Meeting NQS or above probability curves for bus and train distance">
+        </button>
+        <aside class="insight-rail">
+          <div class="model-result bus"><span>Bus distance doubling</span><strong>OR 0.965</strong><small>95% CI 0.934-0.998</small></div>
+          <div class="model-result train"><span>Train distance doubling</span><strong>OR 1.003</strong><small>95% CI 0.973-1.035</small></div>
+          <p>Controls: remoteness, state and broad service type.</p>
+          <p class="caution">Association is not causation.</p>
+        </aside>
+      </div>
+      <p class="bottom-takeaway">Most of the raw gradient is geographic or compositional; transport distance alone is not a sufficient quality intervention target.</p>
+      <aside class="speaker-note">
+        Raw quintiles suggest lower quality at longer distances. After controlling for remoteness, state and broad service type, the association becomes much smaller. The bus odds ratio is 0.965 per distance doubling, while the train estimate is effectively one. This indicates that much of the raw pattern is geographic or compositional. The models remain observational and do not establish a causal transport effect.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="Operations" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">7 &bull; operations</p>
+        <h2>Capacity declines with remoteness; opening-hours evidence is weaker</h2>
+      </header>
+      <div class="visual-with-rail">
+        <button class="image-button" data-image="assets/images/06_operational_geography.png" title="Enlarge operational geography figure">
+          <img src="assets/images/06_operational_geography.png" alt="Capacity and annual opening hours by remoteness with adjusted transport effects">
+        </button>
+        <aside class="insight-rail">
+          <div class="capacity-drop"><div><strong>66</strong><span>places<br>Major Cities</span></div><b>&rarr;</b><div><strong>26</strong><span>places<br>Very Remote</span></div></div>
+          <div class="model-result compact-result"><span>Bus distance doubling</span><strong>-1.64% capacity</strong><small>95% CI -2.13 to -1.14</small></div>
+          <p>Adjusted annual-hours effects are near zero for both modes.</p>
+          <p class="caution">Hours use annual-calendar records only.</p>
+        </aside>
+      </div>
+      <aside class="speaker-note">
+        Operational capacity shows a clearer gradient than opening hours. Median Centre-Based capacity falls from 66 places in Major Cities to 26 in Very Remote areas. After geographic adjustment, a doubling of bus distance is associated with 1.64 percent lower capacity. Adjusted opening-hours estimates are close to zero. Approved places are not occupancy, staffing or waitlists, and annual hours cover only 60.6 percent of the register.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide" data-section="Synthesis" data-main="true">
+      <header class="slide-heading compact">
+        <p class="eyebrow">8 &bull; multidimensional screening</p>
+        <h2>Twelve geographic groups cross all four national benchmarks</h2>
+      </header>
+      <div class="visual-with-rail rail-wide">
+        <button class="image-button" data-image="assets/images/07_multidimensional_screening.png" title="Enlarge multidimensional screening figure">
+          <img src="assets/images/07_multidimensional_screening.png" alt="Four-panel profile of geographic groups crossing quality, transport, facility-size and population coverage benchmarks">
+        </button>
+        <aside class="insight-rail">
+          <div class="screen-rule"><span>1</span><p>Below-NQS rate above national</p></div>
+          <div class="screen-rule"><span>2</span><p>Transport distance above national median</p></div>
+          <div class="screen-rule"><span>3</span><p>Median capacity below national</p></div>
+          <div class="screen-rule"><span>4</span><p>Places per child below national</p></div>
+          <button class="explore-button" data-explorer="screening">Inspect all groups</button>
+        </aside>
+      </div>
+      <p class="figure-note">Centre-Based State &times; Remoteness groups with at least 20 rated services. No weighted score is created.</p>
+      <aside class="speaker-note">
+        I combine four compatible Centre-Based measures using transparent national benchmarks and a minimum of twenty rated services. Twelve state-remoteness groups meet all four rules. The chart keeps each dimension visible instead of collapsing them into an arbitrary weighted score. These flags identify where investigation should begin; they are not proof of disadvantage.
+      </aside>
+    </section>
+
+    <section class="slide" data-section="Limitations" data-main="true">
+      <header class="slide-heading">
+        <p class="eyebrow">Interpretation boundaries</p>
+        <h2>The screen is useful only when its limitations stay visible</h2>
+      </header>
+      <div class="limits-grid">
+        <article><span>Time</span><h3>Snapshot, not trend</h3><p>A current register cannot establish changes or causes.</p></article>
+        <article><span>Denominator</span><h3>2021 versus current</h3><p>Census population and the service snapshot are not contemporaneous.</p></article>
+        <article><span>Need</span><h3>Places are not demand</h3><p>No enrolment, vacancy, waitlist or staffing data are available.</p></article>
+        <article><span>Access</span><h3>Distance is a proxy</h3><p>No travel time, frequency, cost, route quality or car access.</p></article>
+        <article><span>Population</span><h3>Age fit is broad</h3><p>Ages 0-13 do not match every offering's eligible population.</p></article>
+        <article><span>Geography</span><h3>Aggregation hides variation</h3><p>RA groups can conceal local pockets and small-cell uncertainty.</p></article>
+      </div>
+      <div class="guardrail"><strong>Decision guardrail</strong><span>Use the flags to commission local validation, not to label communities or allocate resources directly.</span></div>
+      <aside class="speaker-note">
+        The main limitations affect the interpretation, not just the methods. The data are cross-sectional, the denominator is older than the register, and approved places are not vacancies or demand. Distance omits many dimensions of real access, and broad remoteness areas can hide local variation. Small remote cells are particularly uncertain. Therefore the appropriate use is targeted validation, not direct resource allocation.
+      </aside>
+    </section>
+
+    <section class="slide" data-section="Recommendations" data-main="true">
+      <header class="slide-heading">
+        <p class="eyebrow">Decision recommendations</p>
+        <h2>Move from national screening to targeted evidence</h2>
+      </header>
+      <div class="action-roadmap">
+        <article class="action-now"><div class="action-time">Now</div><h3>Validate the 12 flagged groups</h3><p>Check rating denominators, QA1 standards, service mix, capacity utilisation and local transport conditions.</p><span>Owner: ACECQA + state regulators</span></article>
+        <article class="action-next"><div class="action-time">Next</div><h3>Upgrade demand and access measures</h3><p>Add contemporaneous age-specific population, enrolment, vacancy, waitlist, travel-time and frequency data.</p><span>Owner: data partnerships</span></article>
+        <article class="action-embed"><div class="action-time">Embed</div><h3>Maintain type-aware monitoring</h3><p>Keep Centre-Based capacity separate, retain robust uncertainty and refresh the geographic screen with each snapshot.</p><span>Owner: analytics and reporting</span></article>
+      </div>
+      <div class="priority-band">
+        <strong>Immediate analytical priority</strong>
+        <p>Investigate QA1 within the flagged regions before designing training, guidance or regulatory follow-up.</p>
+      </div>
+      <aside class="speaker-note">
+        I recommend three stages. First, validate the twelve flagged groups with local operational and transport evidence, including the specific QA1 standards driving weaker outcomes. Second, improve denominators and add real demand and journey measures. Third, embed this as a repeatable, service-type-aware monitoring process with uncertainty retained. This turns a preliminary analysis into a responsible evidence pipeline.
+      </aside>
+    </section>
+
+    <section class="slide closing-slide" data-section="Conclusion" data-main="true">
+      <div class="closing-content">
+        <p class="eyebrow">Conclusion</p>
+        <h2>Use the screen to decide where to investigate next</h2>
+        <p class="closing-lead">Geographic inequality is visible across transport proximity, quality composition and approved-place intensity, but simple correlations do not explain why.</p>
+        <div class="closing-findings">
+          <article><strong>230 km</strong><span>Very Remote median distance to nearest listed mode</span></article>
+          <article><strong>141</strong><span>approved places per 1,000 children in Very Remote areas</span></article>
+          <article><strong>12</strong><span>groups crossing all four screening benchmarks</span></article>
+        </div>
+        <div class="final-message">The defensible decision is targeted validation, followed by locally informed action.</div>
+      </div>
+      <aside class="speaker-note">
+        In conclusion, transport distance, quality composition and capacity intensity are geographically uneven. Yet adjustment shows that proximity alone does not explain quality. The most defensible output is the twelve-group screen: a transparent shortlist for local validation. ACECQA should use it to focus the next evidence-gathering stage, then design action with current demand, utilisation and journey data.
+      </aside>
+    </section>
+
+    <section class="slide visual-slide appendix-slide" data-section="Appendix" data-main="false">
+      <header class="slide-heading compact"><p class="eyebrow">Appendix A1</p><h2>State samples have different remoteness structures</h2></header>
+      <button class="image-button appendix-figure" data-image="assets/images/E03_geographic_sample_structure.png" title="Enlarge sample-structure heatmap"><img src="assets/images/E03_geographic_sample_structure.png" alt="State by remoteness sample composition heatmap"></button>
+      <aside class="speaker-note">This EDA figure motivates simultaneous adjustment for state and remoteness and the use of minimum-n rules for remote cells.</aside>
+    </section>
+
+    <section class="slide visual-slide appendix-slide" data-section="Appendix" data-main="false">
+      <header class="slide-heading compact"><p class="eyebrow">Appendix A2</p><h2>Raw operational relationships require adjustment</h2></header>
+      <button class="image-button appendix-figure" data-image="assets/images/E04_raw_relationship_diagnostics.png" title="Enlarge raw-relationship diagnostics"><img src="assets/images/E04_raw_relationship_diagnostics.png" alt="Hexbin plots of transport distance against capacity and annual hours"></button>
+      <aside class="speaker-note">Hexbin aggregation reduces overplotting and shows why simple service-level correlations would be misleading.</aside>
+    </section>
+
+    <section class="slide appendix-slide" data-section="Appendix" data-main="false">
+      <header class="slide-heading"><p class="eyebrow">Appendix A3</p><h2>Adjusted model specifications</h2></header>
+      <div class="model-grid">
+        <article><span>Quality</span><h3>Binomial GLM + HC1</h3><code>Meeting+ ~ log2(distance + 0.1) + remoteness + service type + state</code><p>n = 16,326</p></article>
+        <article><span>Capacity</span><h3>Log-capacity OLS + HC3</h3><code>log(places) ~ log2(distance + 0.1) + remoteness + state</code><p>Centre-Based n = 17,233</p></article>
+        <article><span>Hours</span><h3>Annual-hours OLS + HC3</h3><code>hours ~ log2(distance + 0.1) + remoteness + service type + state</code><p>n = 10,708</p></article>
+      </div>
+      <div class="guardrail"><strong>Inference</strong><span>Robust intervals quantify uncertainty around adjusted associations; they do not identify causal effects.</span></div>
+      <aside class="speaker-note">All models use bus and train separately. The quality figure displays average adjusted predictions over the observed covariate distribution.</aside>
+    </section>
+
+    <section class="slide appendix-slide" data-section="Appendix" data-main="false">
+      <header class="slide-heading"><p class="eyebrow">Appendix A4</p><h2>Supporting analyses retained outside the core story</h2></header>
+      <div class="appendix-gallery">
+        <button class="image-button" data-image="assets/images/A01_service_offering_portfolio.png" title="Open service offering portfolio"><img src="assets/images/A01_service_offering_portfolio.png" alt="Detailed service offering portfolio"><span>Detailed offering portfolio</span></button>
+        <button class="image-button" data-image="assets/images/A02_quality_by_offering.png" title="Open quality by offering"><img src="assets/images/A02_quality_by_offering.png" alt="Quality outcomes by detailed offering"><span>Quality by offering</span></button>
+        <button class="image-button" data-image="assets/images/A03_unadjusted_quality_accessibility.png" title="Open unadjusted accessibility"><img src="assets/images/A03_unadjusted_quality_accessibility.png" alt="Unadjusted quality by distance quintile"><span>Unadjusted distance quintiles</span></button>
+        <button class="image-button" data-image="assets/images/A04_approval_cohorts.png" title="Open approval cohort figure"><img src="assets/images/A04_approval_cohorts.png" alt="Current-register approval cohorts"><span>Approval cohorts</span></button>
+      </div>
+      <aside class="speaker-note">These figures remain available for questions but are secondary to the geographic decision narrative.</aside>
+    </section>
+
+    <nav class="deck-controls" aria-label="Presentation controls">
+      <button type="button" id="prev-button" title="Previous slide" aria-label="Previous slide">&#8592;</button>
+      <div class="slide-counter" id="slide-counter">1 / 17</div>
+      <button type="button" id="next-button" title="Next slide" aria-label="Next slide">&#8594;</button>
+      <span class="control-divider"></span>
+      <button type="button" id="notes-button" title="Speaker notes" aria-label="Toggle speaker notes">Notes</button>
+      <button type="button" id="explorers-button" title="Interactive explorers" aria-label="Open interactive explorer menu">Explore</button>
+      <button type="button" id="fullscreen-button" title="Full screen" aria-label="Toggle full screen">Full screen</button>
+    </nav>
+    <div class="section-indicator" id="section-indicator">Brief</div>
+  </main>
+
+  <aside class="notes-drawer" id="notes-drawer" aria-hidden="true">
+    <div class="drawer-head"><div><span>Speaker notes</span><strong id="notes-title"></strong></div><button type="button" id="notes-close" aria-label="Close notes">&#215;</button></div>
+    <div class="drawer-body" id="notes-body"></div>
+  </aside>
+
+  <div class="overlay" id="explorer-overlay" hidden>
+    <div class="overlay-toolbar">
+      <div><span>Interactive explorer</span><strong id="explorer-title">Service landscape</strong></div>
+      <div class="overlay-actions"><a id="explorer-popout" href="#" target="_blank" rel="noreferrer">Open in new tab</a><button type="button" id="explorer-close">Close</button></div>
+    </div>
+    <div class="explorer-stage"><div class="explorer-loading" id="explorer-loading">Loading explorer...</div><iframe id="explorer-frame" title="Interactive data explorer" loading="lazy"></iframe></div>
+  </div>
+
+  <div class="overlay image-overlay" id="image-overlay" hidden>
+    <div class="overlay-toolbar"><div><span>Figure detail</span><strong id="image-title">Visualisation</strong></div><div class="overlay-actions"><button type="button" id="image-close">Close</button></div></div>
+    <div class="image-stage"><img id="image-full" alt="Enlarged presentation figure"></div>
+  </div>
+
+  <div class="overlay explorer-menu" id="explorer-menu" hidden>
+    <div class="explorer-menu-panel">
+      <div class="menu-head"><div><span>Live analysis</span><h2>Interactive explorers</h2></div><button type="button" id="explorer-menu-close" aria-label="Close explorer menu">&#215;</button></div>
+      <div class="explorer-list">
+        <button type="button" data-explorer="landscape"><span>01</span><strong>Service landscape</strong><small>Map layers, state, remoteness and service type</small></button>
+        <button type="button" data-explorer="quality"><span>02</span><strong>Quality geography</strong><small>Actual rates and service-type benchmark gaps</small></button>
+        <button type="button" data-explorer="coverage"><span>03</span><strong>Population coverage</strong><small>Places and services per 1,000 children</small></button>
+        <button type="button" data-explorer="screening"><span>04</span><strong>Geographic screening</strong><small>Four rules, uncertainty and group details</small></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="deck.js"></script>
+</body>
+</html>

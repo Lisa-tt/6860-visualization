@@ -1,0 +1,7 @@
+model,transport_mode,family,formula,services,outcome_events,converged,fit_statistic,fit_value
+Quality Meeting+,Bus,Binomial GLM with HC1 robust covariance,meeting_binary ~ log_distance + C(remoteness_area) + C(ServiceType) + C(State),16326,14841.000,True,McFadden pseudo-R2,0.052
+Quality Meeting+,Train,Binomial GLM with HC1 robust covariance,meeting_binary ~ log_distance + C(remoteness_area) + C(ServiceType) + C(State),16326,14841.000,True,McFadden pseudo-R2,0.051
+Centre-Based approved capacity,Bus,OLS with HC3 robust covariance,log_capacity ~ log_distance + C(remoteness_area) + C(State),17233,,True,Adjusted R-squared,0.114
+Annual weekly opening hours,Bus,OLS with HC3 robust covariance,annual_weekly_operating_hours ~ log_distance + C(remoteness_area) + C(ServiceType) + C(State),10708,,True,Adjusted R-squared,0.073
+Centre-Based approved capacity,Train,OLS with HC3 robust covariance,log_capacity ~ log_distance + C(remoteness_area) + C(State),17233,,True,Adjusted R-squared,0.112
+Annual weekly opening hours,Train,OLS with HC3 robust covariance,annual_weekly_operating_hours ~ log_distance + C(remoteness_area) + C(ServiceType) + C(State),10708,,True,Adjusted R-squared,0.073

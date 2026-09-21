@@ -1,0 +1,5 @@
+outcome,transport_mode,services,adjusted_effect_per_distance_doubling,ci95_lower,ci95_upper,effect_unit,p_value,distance_offset_km
+Centre-Based approved capacity,Bus,17233,-1.636,-2.134,-1.136,% change in approved places,0.000,0.100
+Annual weekly opening hours,Bus,10708,0.008,-0.149,0.165,hours per week,0.919,0.100
+Centre-Based approved capacity,Train,17233,-0.466,-0.965,0.037,% change in approved places,0.069,0.100
+Annual weekly opening hours,Train,10708,-0.059,-0.215,0.096,hours per week,0.454,0.100

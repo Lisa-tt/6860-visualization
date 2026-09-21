@@ -1,0 +1,34 @@
+state,remoteness_area,services,rated_services,below_nqs_pct_of_rated,below_nqs_ci95_lower_pct,below_nqs_ci95_upper_pct,median_nearest_transport_km,median_approved_places,annual_hours_services,median_annual_weekly_hours,eligible_for_comparison,quality_disadvantage,access_disadvantage,capacity_disadvantage,screening_flag,national_below_nqs_pct,national_median_transport_km,national_median_approved_places,child_population_0_13,centre_based_approved_places,approved_places_per_1000_children,national_approved_places_per_1000_children,coverage_gap_from_national,population_coverage_available,coverage_disadvantage,enhanced_screening_flag
+ACT,Inner Regional Australia,3,3,0.000,0.000,56.151,32.055,22.000,1,50.000,False,False,False,False,False,8.804,2.326,60.000,157,22.000,140.127,274.628,-134.500,True,False,False
+ACT,Major Cities of Australia,369,347,14.409,11.104,18.494,5.433,77.000,196,52.500,True,True,True,False,False,8.804,2.326,60.000,77576,31105.000,400.962,274.628,126.334,True,False,False
+NSW,Inner Regional Australia,1117,1049,8.389,6.859,10.222,6.002,48.000,733,52.500,True,False,True,True,False,8.804,2.326,60.000,258702,60280.000,233.009,274.628,-41.618,True,True,False
+NSW,Major Cities of Australia,4455,4241,6.673,5.960,7.464,1.502,55.000,3318,55.000,True,False,False,True,False,8.804,2.326,60.000,1041692,290947.000,279.302,274.628,4.674,True,False,False
+NSW,Outer Regional Australia,225,206,9.223,5.984,13.955,42.075,39.000,157,47.500,True,True,True,True,True,8.804,2.326,60.000,63009,9494.000,150.677,274.628,-123.951,True,True,True
+NSW,Remote Australia,25,23,13.043,4.538,32.128,159.985,30.000,17,44.000,True,True,True,True,True,8.804,2.326,60.000,4929,864.000,175.289,274.628,-99.339,True,True,True
+NSW,Very Remote Australia,8,7,14.286,2.568,51.313,282.938,24.500,7,34.000,False,False,False,False,False,8.804,2.326,60.000,1235,216.000,174.899,274.628,-99.729,True,False,False
+NT,Outer Regional Australia,145,138,19.565,13.809,26.970,4.633,71.000,89,52.500,True,True,True,False,False,8.804,2.326,60.000,26553,11109.000,418.371,274.628,143.743,True,False,False
+NT,Remote Australia,50,46,28.261,17.324,42.549,4.056,46.000,26,41.250,True,True,True,True,True,8.804,2.326,60.000,9225,2556.000,277.073,274.628,2.445,True,False,False
+NT,Very Remote Australia,36,28,25.000,12.676,43.356,307.789,29.000,15,32.500,True,True,True,True,True,8.804,2.326,60.000,9632,1276.000,132.475,274.628,-142.153,True,True,True
+QLD,Inner Regional Australia,611,567,13.580,11.004,16.646,3.931,60.000,321,60.000,True,True,True,False,False,8.804,2.326,60.000,167958,39430.000,234.761,274.628,-39.867,True,True,False
+QLD,Major Cities of Australia,2017,1929,7.776,6.663,9.057,1.986,80.000,1314,60.000,True,False,False,False,False,8.804,2.326,60.000,582152,185596.000,318.810,274.628,44.182,True,False,False
+QLD,Outer Regional Australia,445,416,14.904,11.803,18.647,5.994,64.000,252,60.000,True,True,True,False,False,8.804,2.326,60.000,120021,29454.000,245.407,274.628,-29.221,True,True,False
+QLD,Remote Australia,51,44,13.636,6.403,26.710,44.733,25.000,19,50.000,True,True,True,True,True,8.804,2.326,60.000,13587,1833.000,134.908,274.628,-139.720,True,True,True
+QLD,Very Remote Australia,66,58,32.759,22.083,45.576,234.907,22.000,22,45.625,True,True,True,True,True,8.804,2.326,60.000,11013,1867.000,169.527,274.628,-105.101,True,True,True
+SA,Inner Regional Australia,124,117,17.094,11.347,24.933,9.494,44.500,35,56.250,True,True,True,True,True,8.804,2.326,60.000,26343,6014.000,228.296,274.628,-46.332,True,True,True
+SA,Major Cities of Australia,935,897,16.276,14.005,18.835,2.290,63.000,467,58.750,True,True,False,False,False,8.804,2.326,60.000,214240,65996.000,308.047,274.628,33.419,True,False,False
+SA,Outer Regional Australia,149,144,17.361,12.045,24.374,49.335,40.000,54,53.750,True,True,True,True,True,8.804,2.326,60.000,31312,6595.000,210.622,274.628,-64.006,True,True,True
+SA,Remote Australia,34,32,15.625,6.864,31.754,113.516,32.500,14,50.000,True,True,True,True,True,8.804,2.326,60.000,7425,1456.000,196.094,274.628,-78.534,True,True,True
+SA,Very Remote Australia,21,19,15.789,5.520,37.566,20.495,29.000,3,47.500,False,False,False,False,False,8.804,2.326,60.000,2400,651.000,271.250,274.628,-3.378,True,False,False
+TAS,Inner Regional Australia,159,147,15.646,10.658,22.384,3.750,60.000,90,55.000,True,True,True,False,False,8.804,2.326,60.000,54430,10398.000,191.034,274.628,-83.594,True,True,False
+TAS,Outer Regional Australia,71,63,20.635,12.475,32.170,17.181,45.000,42,55.000,True,True,True,True,True,8.804,2.326,60.000,29940,3423.000,114.329,274.628,-160.299,True,True,True
+TAS,Remote Australia,3,3,33.333,6.149,79.235,38.540,28.000,3,47.500,False,False,False,False,False,8.804,2.326,60.000,1047,85.000,81.184,274.628,-193.444,True,False,False
+TAS,Very Remote Australia,2,2,50.000,9.453,90.547,143.633,40.000,2,41.250,False,False,False,False,False,8.804,2.326,60.000,373,80.000,214.477,274.628,-60.151,True,False,False
+VIC,Inner Regional Australia,983,818,6.235,4.774,8.105,4.293,46.000,346,57.500,True,False,True,True,False,8.804,2.326,60.000,200955,56043.000,278.883,274.628,4.255,True,False,False
+VIC,Major Cities of Australia,3515,3178,3.021,2.480,3.675,2.000,68.000,1707,57.500,True,False,False,False,False,8.804,2.326,60.000,849483,268319.000,315.862,274.628,41.234,True,False,False
+VIC,Outer Regional Australia,190,156,8.333,4.935,13.735,28.147,34.000,67,52.500,True,False,True,True,False,8.804,2.326,60.000,39353,9355.000,237.720,274.628,-36.908,True,True,False
+VIC,Remote Australia,3,3,0.000,0.000,56.151,67.002,24.000,0,,False,False,False,False,False,8.804,2.326,60.000,450,71.000,157.778,274.628,-116.850,True,False,False
+WA,Inner Regional Australia,95,87,18.391,11.649,27.806,7.344,50.000,69,55.000,True,True,True,True,True,8.804,2.326,60.000,39747,5178.000,130.274,274.628,-144.354,True,True,True
+WA,Major Cities of Australia,1185,1069,13.938,11.991,16.144,2.151,64.000,832,57.500,True,True,False,False,False,8.804,2.326,60.000,369816,79369.000,214.618,274.628,-60.010,True,True,False
+WA,Outer Regional Australia,74,67,22.388,14.064,33.707,3.547,40.000,59,50.000,True,True,True,True,True,8.804,2.326,60.000,31834,3150.000,98.951,274.628,-175.677,True,True,True
+WA,Remote Australia,49,48,29.167,18.241,43.180,194.790,30.000,44,50.000,True,True,True,True,True,8.804,2.326,60.000,18287,2125.000,116.203,274.628,-158.425,True,True,True
+WA,Very Remote Australia,20,19,52.632,31.707,72.670,225.113,43.500,19,47.500,False,False,False,False,False,8.804,2.326,60.000,11299,985.000,87.176,274.628,-187.452,True,False,False

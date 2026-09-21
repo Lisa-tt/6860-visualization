@@ -1,0 +1,34 @@
+remoteness_code,remoteness_area,state,child_population_0_13,census_year,population_definition,all_services,centre_based_services,centre_based_capacity_records,centre_based_approved_places,all_services_per_1000_children,centre_based_services_per_1000_children,approved_places_per_1000_children,approved_places_per_centre_service,capacity_completeness_pct,national_approved_places_per_1000_children,coverage_gap_from_national,coverage_disadvantage,small_population_flag
+80,Major Cities of Australia,ACT,77576,2021,2021 Census usual residents aged 0-13,375,369,369,31105.000,4.834,4.757,400.962,84.295,100.000,274.628,126.334,False,False
+81,Inner Regional Australia,ACT,157,2021,2021 Census usual residents aged 0-13,1,1,1,22.000,6.369,6.369,140.127,22.000,100.000,274.628,-134.500,True,True
+10,Major Cities of Australia,NSW,1041692,2021,2021 Census usual residents aged 0-13,4539,4455,4455,290947.000,4.357,4.277,279.302,65.308,100.000,274.628,4.674,False,False
+11,Inner Regional Australia,NSW,258702,2021,2021 Census usual residents aged 0-13,1146,1117,1117,60280.000,4.430,4.318,233.009,53.966,100.000,274.628,-41.618,True,False
+12,Outer Regional Australia,NSW,63009,2021,2021 Census usual residents aged 0-13,231,225,225,9494.000,3.666,3.571,150.677,42.196,100.000,274.628,-123.951,True,False
+13,Remote Australia,NSW,4929,2021,2021 Census usual residents aged 0-13,26,25,25,864.000,5.275,5.072,175.289,34.560,100.000,274.628,-99.339,True,True
+14,Very Remote Australia,NSW,1235,2021,2021 Census usual residents aged 0-13,8,8,8,216.000,6.478,6.478,174.899,27.000,100.000,274.628,-99.729,True,True
+72,Outer Regional Australia,NT,26553,2021,2021 Census usual residents aged 0-13,148,145,145,11109.000,5.574,5.461,418.371,76.614,100.000,274.628,143.743,False,False
+73,Remote Australia,NT,9225,2021,2021 Census usual residents aged 0-13,51,50,50,2556.000,5.528,5.420,277.073,51.120,100.000,274.628,2.445,False,False
+74,Very Remote Australia,NT,9632,2021,2021 Census usual residents aged 0-13,36,36,36,1276.000,3.738,3.738,132.475,35.444,100.000,274.628,-142.153,True,False
+30,Major Cities of Australia,QLD,582152,2021,2021 Census usual residents aged 0-13,2085,2017,2017,185596.000,3.582,3.465,318.810,92.016,100.000,274.628,44.182,False,False
+31,Inner Regional Australia,QLD,167958,2021,2021 Census usual residents aged 0-13,625,611,611,39430.000,3.721,3.638,234.761,64.534,100.000,274.628,-39.867,True,False
+32,Outer Regional Australia,QLD,120021,2021,2021 Census usual residents aged 0-13,459,445,445,29454.000,3.824,3.708,245.407,66.189,100.000,274.628,-29.221,True,False
+33,Remote Australia,QLD,13587,2021,2021 Census usual residents aged 0-13,52,51,51,1833.000,3.827,3.754,134.908,35.941,100.000,274.628,-139.720,True,False
+34,Very Remote Australia,QLD,11013,2021,2021 Census usual residents aged 0-13,66,66,66,1867.000,5.993,5.993,169.527,28.288,100.000,274.628,-105.101,True,False
+40,Major Cities of Australia,SA,214240,2021,2021 Census usual residents aged 0-13,945,935,933,65996.000,4.411,4.364,308.047,70.584,99.786,274.628,33.419,False,False
+41,Inner Regional Australia,SA,26343,2021,2021 Census usual residents aged 0-13,126,124,124,6014.000,4.783,4.707,228.296,48.500,100.000,274.628,-46.332,True,False
+42,Outer Regional Australia,SA,31312,2021,2021 Census usual residents aged 0-13,152,149,149,6595.000,4.854,4.759,210.622,44.262,100.000,274.628,-64.006,True,False
+43,Remote Australia,SA,7425,2021,2021 Census usual residents aged 0-13,35,34,34,1456.000,4.714,4.579,196.094,42.824,100.000,274.628,-78.534,True,False
+44,Very Remote Australia,SA,2400,2021,2021 Census usual residents aged 0-13,22,21,21,651.000,9.167,8.750,271.250,31.000,100.000,274.628,-3.378,True,True
+61,Inner Regional Australia,TAS,54430,2021,2021 Census usual residents aged 0-13,163,159,159,10398.000,2.995,2.921,191.034,65.396,100.000,274.628,-83.594,True,False
+62,Outer Regional Australia,TAS,29940,2021,2021 Census usual residents aged 0-13,72,71,71,3423.000,2.405,2.371,114.329,48.211,100.000,274.628,-160.299,True,False
+63,Remote Australia,TAS,1047,2021,2021 Census usual residents aged 0-13,3,3,3,85.000,2.865,2.865,81.184,28.333,100.000,274.628,-193.444,True,True
+64,Very Remote Australia,TAS,373,2021,2021 Census usual residents aged 0-13,2,2,2,80.000,5.362,5.362,214.477,40.000,100.000,274.628,-60.151,True,True
+20,Major Cities of Australia,VIC,849483,2021,2021 Census usual residents aged 0-13,3633,3515,3515,268319.000,4.277,4.138,315.862,76.335,100.000,274.628,41.234,False,False
+21,Inner Regional Australia,VIC,200955,2021,2021 Census usual residents aged 0-13,998,983,983,56043.000,4.966,4.892,278.883,57.012,100.000,274.628,4.255,False,False
+22,Outer Regional Australia,VIC,39353,2021,2021 Census usual residents aged 0-13,195,190,190,9355.000,4.955,4.828,237.720,49.237,100.000,274.628,-36.908,True,False
+23,Remote Australia,VIC,450,2021,2021 Census usual residents aged 0-13,3,3,3,71.000,6.667,6.667,157.778,23.667,100.000,274.628,-116.850,True,True
+50,Major Cities of Australia,WA,369816,2021,2021 Census usual residents aged 0-13,1210,1185,1185,79369.000,3.272,3.204,214.618,66.978,100.000,274.628,-60.010,True,False
+51,Inner Regional Australia,WA,39747,2021,2021 Census usual residents aged 0-13,97,95,95,5178.000,2.440,2.390,130.274,54.505,100.000,274.628,-144.354,True,False
+52,Outer Regional Australia,WA,31834,2021,2021 Census usual residents aged 0-13,77,74,74,3150.000,2.419,2.325,98.951,42.568,100.000,274.628,-175.677,True,False
+53,Remote Australia,WA,18287,2021,2021 Census usual residents aged 0-13,49,49,49,2125.000,2.679,2.679,116.203,43.367,100.000,274.628,-158.425,True,False
+54,Very Remote Australia,WA,11299,2021,2021 Census usual residents aged 0-13,19,19,19,985.000,1.682,1.682,87.176,51.842,100.000,274.628,-187.452,True,False

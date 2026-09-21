@@ -1,0 +1,36 @@
+offering,remoteness_area,services,services_in_area,share_of_area_services_pct,national_share_pct,gap_from_national_pp
+Long Day Care,Major Cities of Australia,7177,12787,56.127,52.669,3.458
+Long Day Care,Inner Regional Australia,1370,3158,43.382,52.669,-9.288
+Long Day Care,Outer Regional Australia,598,1334,44.828,52.669,-7.842
+Long Day Care,Remote Australia,97,219,44.292,52.669,-8.377
+Long Day Care,Very Remote Australia,55,154,35.714,52.669,-16.955
+Preschool: School-based,Major Cities of Australia,512,12787,4.004,4.795,-0.791
+Preschool: School-based,Inner Regional Australia,108,3158,3.420,4.795,-1.375
+Preschool: School-based,Outer Regional Australia,110,1334,8.246,4.795,3.451
+Preschool: School-based,Remote Australia,45,219,20.548,4.795,15.753
+Preschool: School-based,Very Remote Australia,70,154,45.455,4.795,40.659
+Preschool: Stand-alone,Major Cities of Australia,1847,12787,14.444,17.188,-2.744
+Preschool: Stand-alone,Inner Regional Australia,710,3158,22.483,17.188,5.294
+Preschool: Stand-alone,Outer Regional Australia,401,1334,30.060,17.188,12.871
+Preschool: Stand-alone,Remote Australia,54,219,24.658,17.188,7.469
+Preschool: Stand-alone,Very Remote Australia,22,154,14.286,17.188,-2.903
+OSHC: After School,Major Cities of Australia,4209,12787,32.916,33.726,-0.810
+OSHC: After School,Inner Regional Australia,1221,3158,38.664,33.726,4.938
+OSHC: After School,Outer Regional Australia,441,1334,33.058,33.726,-0.667
+OSHC: After School,Remote Australia,60,219,27.397,33.726,-6.329
+OSHC: After School,Very Remote Australia,23,154,14.935,33.726,-18.791
+OSHC: Before School,Major Cities of Australia,3960,12787,30.969,30.408,0.561
+OSHC: Before School,Inner Regional Australia,1039,3158,32.901,30.408,2.492
+OSHC: Before School,Outer Regional Australia,317,1334,23.763,30.408,-6.645
+OSHC: Before School,Remote Australia,38,219,17.352,30.408,-13.057
+OSHC: Before School,Very Remote Australia,15,154,9.740,30.408,-20.668
+OSHC: Vacation Care,Major Cities of Australia,3536,12787,27.653,27.934,-0.281
+OSHC: Vacation Care,Inner Regional Australia,936,3158,29.639,27.934,1.705
+OSHC: Vacation Care,Outer Regional Australia,379,1334,28.411,27.934,0.477
+OSHC: Vacation Care,Remote Australia,56,219,25.571,27.934,-2.363
+OSHC: Vacation Care,Very Remote Australia,25,154,16.234,27.934,-11.700
+Other,Major Cities of Australia,210,12787,1.642,1.857,-0.215
+Other,Inner Regional Australia,70,3158,2.217,1.857,0.360
+Other,Outer Regional Australia,38,1334,2.849,1.857,0.992
+Other,Remote Australia,8,219,3.653,1.857,1.796
+Other,Very Remote Australia,2,154,1.299,1.857,-0.558

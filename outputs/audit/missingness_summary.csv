@@ -1,0 +1,14 @@
+variable,missing,missing_pct,analysis_handling
+State,10,0.057,Required for state-adjusted/geographic analyses only
+OverallRating,1327,7.513,Missing services remain in non-quality analyses
+NumberOfApprovedPlaces,417,2.361,Capacity restricted to Centre-Based Care
+approval_date,1,0.006,Required only for current-service cohort analysis
+rating_date,1327,7.513,Descriptive metadata; not used as an outcome
+longitude,0,0.000,Required only for spatial analyses
+latitude,0,0.000,Required only for spatial analyses
+remoteness_area,11,0.062,Required only for remoteness comparisons/models
+DistanceToBusStation_km,0,0.000,Required only for bus-distance analyses
+DistanceToTrainStation_km,0,0.000,Required only for train-distance analyses
+annual_weekly_operating_hours,6947,39.331,Primary comparable hours measure
+term_weekly_operating_hours,9799,55.478,Kept separate from annual/holiday calendars
+holiday_weekly_operating_hours,12862,72.819,Kept separate from annual/term calendars

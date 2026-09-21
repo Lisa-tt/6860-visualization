@@ -1,0 +1,11 @@
+remoteness_area,service_type,services,rated_services,rating_coverage_pct,below_nqs_services,below_nqs_pct_of_rated,above_nqs_services,above_nqs_pct_of_rated
+Major Cities of Australia,Centre-Based Care,12476,11661,93.467,874,7.495,2666,22.863
+Major Cities of Australia,Family Day Care,311,254,81.672,59,23.228,20,7.874
+Inner Regional Australia,Centre-Based Care,3092,2788,90.168,275,9.864,566,20.301
+Inner Regional Australia,Family Day Care,66,63,95.455,10,15.873,7,11.111
+Outer Regional Australia,Centre-Based Care,1299,1190,91.609,174,14.622,191,16.050
+Outer Regional Australia,Family Day Care,35,33,94.286,8,24.242,3,9.091
+Remote Australia,Centre-Based Care,215,199,92.558,42,21.106,21,10.553
+Remote Australia,Family Day Care,4,4,100.000,2,50.000,0,0.000
+Very Remote Australia,Centre-Based Care,153,133,86.928,41,30.827,17,12.782
+Very Remote Australia,Family Day Care,1,1,100.000,0,0.000,0,0.000

@@ -1,0 +1,8 @@
+metric,count,share_of_rows_pct
+Rows,17663,100.000
+Valid coordinates,17653,99.943
+Matched to ABS remoteness area,17652,99.938
+Valid coordinate outside RA boundary,1,0.006
+Invalid coordinates,10,0.057
+Boundary state comparison available,17652,99.938
+Source state differs from boundary state,3,0.017

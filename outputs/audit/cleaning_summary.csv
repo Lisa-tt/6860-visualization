@@ -1,0 +1,19 @@
+scope,check,records_flagged,share_of_source_rows_pct,source_rows_before,decision,records_available_after_decision
+Dataset integrity,Exact duplicate rows,0,0.000,17663,Flag for review before any removal; none detected,17663
+Dataset integrity,Duplicate ServiceApprovalNumber,0,0.000,17663,Investigate before deduplication; none detected,17663
+Numeric conversion,Non-numeric values in NumberOfApprovedPlaces,0,0.000,17663,Coerce invalid non-missing values to missing; exclude only from affected analysis,17246
+Numeric conversion,Non-numeric values in DistanceToTrainStation_km,0,0.000,17663,Coerce invalid non-missing values to missing; exclude only from affected analysis,17663
+Numeric conversion,Non-numeric values in DistanceToBusStation_km,0,0.000,17663,Coerce invalid non-missing values to missing; exclude only from affected analysis,17663
+Quality,Missing overall rating,1327,7.513,17663,Retain service; exclude only from rated-outcome analyses,16336
+Quality,Unrecognised overall rating,0,0.000,17663,Retain service and flag; exclude from rated-outcome analyses,16336
+Quality areas,Unrecognised QA rating cells,5,0.028,17663,Exclude only the affected QA cell from that QA denominator,114347
+Capacity,Missing approved places,417,2.361,17663,Expected for Family Day Care; capacity analyses use Centre-Based Care,17246
+Capacity,Non-positive approved places,0,0.000,17663,Treat as invalid for capacity analysis; none detected,17246
+Capacity,Approved places over 300,20,0.113,17663,Retain after record-level review; values are plausible large centres/OSHC,17246
+Transport,Negative or missing bus/train distance,0,0.000,17663,Exclude only from the affected transport analysis,17663
+Transport,Bus or train distance over 500 km,114,0.645,17663,Retain as legitimate geographic extremes after remoteness review,17663
+Geometry,Invalid or unparsed coordinate,10,0.057,17663,Retain for non-spatial analyses; exclude from spatial analyses,17653
+Geometry,Not matched to ABS Remoteness Area,11,0.062,17663,Retain for non-geographic analyses; exclude from remoteness comparisons,17652
+Geometry,Source state differs from boundary state,3,0.017,17663,Retain and flag for record-level review; do not overwrite source state,17649
+Operating hours,Term calendars with overlapping sessions,841,4.761,17663,Use the union of daily intervals to avoid double-counting overlap,7864
+Dates,Missing or unparsed approval date,1,0.006,17663,Retain service; exclude only from approval-cohort analysis,17662

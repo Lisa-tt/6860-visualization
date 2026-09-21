@@ -1,0 +1,14 @@
+metric,count,share_of_rows_pct
+Rows,17663,100.000
+Unique service approval numbers,17663,100.000
+Duplicate service approval numbers,0,0.000
+Missing state,10,0.057
+Missing or unrecognised overall rating,1327,7.513
+Missing approved places,417,2.361
+Missing approval date,1,0.006
+Missing rating date,1327,7.513
+Invalid or unparsed coordinate,10,0.057
+Negative train distance,0,0.000
+Negative bus distance,0,0.000
+Train distance over 500 km,43,0.243
+Bus distance over 500 km,86,0.487

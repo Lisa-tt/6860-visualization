@@ -1,0 +1,16 @@
+remoteness_area,transport_mode,services,median_distance_km,q1_distance_km,q3_distance_km,p90_distance_km
+Major Cities of Australia,Bus,12787,8.512,4.288,14.101,23.093
+Major Cities of Australia,Train,12787,2.024,0.954,3.936,6.983
+Major Cities of Australia,Nearest listed mode,12787,1.890,0.921,3.634,6.432
+Inner Regional Australia,Bus,3158,32.649,6.693,63.094,116.277
+Inner Regional Australia,Train,3158,7.440,1.945,23.159,40.529
+Inner Regional Australia,Nearest listed mode,3158,5.000,1.647,17.226,31.554
+Outer Regional Australia,Bus,1334,91.211,14.395,160.011,252.413
+Outer Regional Australia,Train,1334,13.631,3.992,49.195,98.561
+Outer Regional Australia,Nearest listed mode,1334,9.855,2.450,41.977,77.062
+Remote Australia,Bus,219,220.673,178.705,305.951,626.486
+Remote Australia,Train,219,80.689,3.492,160.243,196.611
+Remote Australia,Nearest listed mode,219,79.515,2.950,160.243,196.611
+Very Remote Australia,Bus,154,442.770,336.238,530.056,650.609
+Very Remote Australia,Train,154,254.596,85.840,455.630,786.349
+Very Remote Australia,Nearest listed mode,154,230.031,66.500,414.840,484.755

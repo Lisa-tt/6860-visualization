@@ -1,0 +1,6 @@
+remoteness_area,services,rated_services,rating_coverage_pct,below_nqs_services,below_nqs_pct_of_rated,above_nqs_services,above_nqs_pct_of_rated,no_current_rating_services,no_current_rating_pct,median_centre_based_places,median_nearest_transport_km
+Major Cities of Australia,12787,11915,93.181,933,7.830,2686,22.543,872,6.819,66.000,1.890
+Inner Regional Australia,3158,2851,90.279,285,9.996,573,20.098,307,9.721,50.000,5.000
+Outer Regional Australia,1334,1223,91.679,182,14.881,194,15.863,111,8.321,48.000,9.855
+Remote Australia,219,203,92.694,44,21.675,21,10.345,16,7.306,32.000,79.515
+Very Remote Australia,154,134,87.013,41,30.597,17,12.687,20,12.987,26.000,230.031
