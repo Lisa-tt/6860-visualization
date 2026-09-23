@@ -8,19 +8,19 @@ SRC_DIR = PROJECT_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from nqf_analysis.analysis import build_analysis_outputs  # noqa: E402
-from nqf_analysis.audit import build_audit_outputs  # noqa: E402
-from nqf_analysis.data import load_and_prepare_data  # noqa: E402
-from nqf_analysis.eda import create_eda_visualisations  # noqa: E402
-from nqf_analysis.interactive import create_interactive_visualisations  # noqa: E402
-from nqf_analysis.population import load_abs_child_population  # noqa: E402
-from nqf_analysis.reporting import write_supporting_reports  # noqa: E402
-from nqf_analysis.spatial import (  # noqa: E402
+from analysis import build_analysis_outputs  # noqa: E402
+from audit import build_audit_outputs  # noqa: E402
+from data import load_and_prepare_data  # noqa: E402
+from eda import create_eda_visualisations  # noqa: E402
+from interactive import create_interactive_visualisations  # noqa: E402
+from population import load_abs_child_population  # noqa: E402
+from reporting import write_supporting_reports  # noqa: E402
+from spatial import (  # noqa: E402
     classify_services_by_remoteness,
     load_remoteness_boundaries,
 )
-from nqf_analysis.visualization import create_visualisations  # noqa: E402
-from nqf_analysis.workflow import write_analysis_workflow  # noqa: E402
+from visualization import create_visualisations  # noqa: E402
+from workflow import write_analysis_workflow  # noqa: E402
 
 
 DATA_PATH = PROJECT_ROOT / "data" / "Education-services-with-station-access_loc.csv"

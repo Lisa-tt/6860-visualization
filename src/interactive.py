@@ -8,8 +8,8 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.io as pio
 
-from .config import REMOTENESS_ORDER, STATE_ORDER, output_paths
-from .spatial import prepare_projected_services
+from config import REMOTENESS_ORDER, STATE_ORDER, output_paths
+from spatial import prepare_projected_services
 
 
 PAGE_CSS = r"""

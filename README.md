@@ -27,7 +27,7 @@ project1/
 |   `-- external/abs/2021_GCP_RA_for_AUS_short-header.zip
 |-- scripts/download_abs_boundaries.py
 |-- scripts/download_abs_child_population.py
-|-- src/nqf_analysis/
+|-- src/
 |   |-- config.py          # categories, colours, output paths
 |   |-- data.py            # cleaning and derived variables
 |   |-- audit.py           # reproducible data-quality audit
@@ -172,4 +172,4 @@ targeted drill-down.
 
 See `ANALYSIS_WORKFLOW.md` for the complete data-source-to-decision workflow.
 Supporting rationale is also recorded in `outputs/report/code_audit.md`,
-`visualisation_catalog.md`, `key_findings.md`, and `presentation_sequence.md`.
+`visualisation_catalog.md`, and `key_findings.md`.

@@ -7,7 +7,7 @@ import statsmodels.formula.api as smf
 from patsy import build_design_matrices
 from scipy.special import expit
 
-from .config import REMOTENESS_ORDER, STATE_ORDER
+from config import REMOTENESS_ORDER, STATE_ORDER
 
 
 DISTANCE_MODES = {

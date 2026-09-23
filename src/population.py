@@ -6,7 +6,7 @@ from zipfile import ZipFile
 import numpy as np
 import pandas as pd
 
-from .config import REMOTENESS_ORDER, STATE_ORDER
+from config import REMOTENESS_ORDER, STATE_ORDER
 
 
 ABS_G04A_MEMBER = (

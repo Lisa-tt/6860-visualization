@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-from .config import output_paths
+from config import output_paths
 
 
 def _write(path, lines):

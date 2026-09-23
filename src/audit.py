@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from .config import (
+from config import (
     DETAILED_SERVICE_OFFERINGS,
     QUALITY_AREA_COLUMNS,
     RATING_ORDER,

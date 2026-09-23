@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from .config import (
+from config import (
     CAPACITY_BAND_ORDER,
     DETAILED_SERVICE_OFFERINGS,
     HIGH_RATINGS,

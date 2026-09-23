@@ -12,7 +12,7 @@ import pandas as pd
 import seaborn as sns
 from shapely.geometry import box
 
-from .config import (
+from config import (
     OFFERING_COLORS,
     OFFERING_ORDER,
     RATING_COLORS,
@@ -21,7 +21,7 @@ from .config import (
     STATE_ORDER,
     output_paths,
 )
-from .spatial import build_equal_area_service_grid
+from spatial import build_equal_area_service_grid
 
 
 REMOTENESS_SHORT = {

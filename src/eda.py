@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-from .config import (
+from config import (
     RATING_GROUP_COLORS,
     RATING_GROUP_ORDER,
     REMOTENESS_ORDER,

@@ -13,17 +13,17 @@ SRC_DIR = PROJECT_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from nqf_analysis.analysis import _wilson_interval, build_compound_disadvantage
-from nqf_analysis.data import (
+from analysis import _wilson_interval, build_compound_disadvantage
+from data import (
     TERM_TIME_PAIRS,
     _parse_geometry,
     _rating_group,
     _time_to_minutes,
     _weekly_hours_with_overlap_control,
 )
-from nqf_analysis.spatial import classify_services_by_remoteness
-from nqf_analysis.population import add_population_adjusted_coverage
-from nqf_analysis.population import (
+from spatial import classify_services_by_remoteness
+from population import add_population_adjusted_coverage
+from population import (
     build_population_coverage_tables,
     enrich_screening_with_population,
 )

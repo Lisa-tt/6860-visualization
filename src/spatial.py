@@ -7,7 +7,7 @@ import geopandas as gpd
 import numpy as np
 import pandas as pd
 
-from .config import (
+from config import (
     BROAD_REMOTENESS_MAP,
     REMOTENESS_ORDER,
     STATE_NAME_TO_ABBR,

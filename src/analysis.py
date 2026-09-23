@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from .config import (
+from config import (
     DETAILED_SERVICE_OFFERINGS,
     HIGH_RATINGS,
     LOW_RATINGS,
@@ -19,8 +19,8 @@ from .config import (
     TRANSPORT_BAND_ORDER,
     output_paths,
 )
-from .models import build_model_outputs
-from .population import (
+from models import build_model_outputs
+from population import (
     build_population_coverage_tables,
     enrich_screening_with_population,
 )
